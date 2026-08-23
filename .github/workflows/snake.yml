@@ -1,6 +1,8 @@
 name: Generate Contribution Snake
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -12,15 +14,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake
+      - name: Generate purple contribution snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Shameen-Khan
           outputs: |
             dist/github-snake.svg?color_snake=%23A855F7&color_dots=%2318082B,%233B0764,%237E22CE,%23A855F7,%23E9D5FF
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23C084FC
+            dist/github-snake-dark.svg?color_snake=%23C084FC&color_dots=%2318082B,%233B0764,%237E22CE,%23A855F7,%23E9D5FF
 
-      - name: Publish snake
+      - name: Publish generated SVGs
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
