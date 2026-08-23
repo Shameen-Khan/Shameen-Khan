@@ -3,18 +3,10 @@
 <img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan purple animated developer universe"/>
 
 <p>
-  <a href="https://github.com/Shameen-Khan">
-    <img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/>
-  </a>
-  <a href="https://leetcode.com/u/SHAMEENKHAN/">
-    <img src="https://img.shields.io/badge/LeetCode-0B0712?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/>
-  </a>
-  <a href="https://www.linkedin.com/in/shameenkhan-j">
-    <img src="https://img.shields.io/badge/LinkedIn-0B0712?style=for-the-badge&logo=linkedin&logoColor=70A5FD" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/shameen_writes/">
-    <img src="https://img.shields.io/badge/Instagram-0B0712?style=for-the-badge&logo=instagram&logoColor=E879F9" alt="Instagram"/>
-  </a>
+  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
+  <a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/LeetCode-0B0712?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
+  <a href="https://www.linkedin.com/in/shameenkhan-j"><img src="https://img.shields.io/badge/LinkedIn-0B0712?style=for-the-badge&logo=linkedin&logoColor=70A5FD" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/shameen_writes/"><img src="https://img.shields.io/badge/Instagram-0B0712?style=for-the-badge&logo=instagram&logoColor=E879F9" alt="Instagram"/></a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=7C3AED&style=for-the-badge" alt="Profile views"/>
@@ -70,13 +62,8 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<a href="https://leetcode.com/u/SHAMEENKHAN/">
-<img src="https://img.shields.io/badge/OPEN_MY_LEETCODE_PROFILE-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="Open LeetCode profile"/>
-</a>
-
-<a href="https://github.com/Shameen-Khan/LeetCode">
-<img src="https://img.shields.io/badge/VIEW_MY_GITHUB_SOLUTIONS-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub LeetCode solutions"/>
-</a>
+<a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/OPEN_MY_LEETCODE_PROFILE-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="Open LeetCode profile"/></a>
+<a href="https://github.com/Shameen-Khan/LeetCode"><img src="https://img.shields.io/badge/VIEW_MY_GITHUB_SOLUTIONS-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub LeetCode solutions"/></a>
 
 </div>
 
@@ -104,7 +91,15 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<img src="assets/certifications-orbit.svg" width="100%" alt="Animated purple certification showcase containing four credential cards"/>
+<a href="https://drive.google.com/file/d/1RQvqpIVC_A5FVgtq1FLE6JxcSowUzONs/view?usp=drive_link"><img src="assets/certificate-01.svg" width="48%" alt="Certificate 01 — click to open"/></a>
+<a href="https://drive.google.com/file/d/1OcDfrQETdrnkbtzA34o3AdZHIbNzjrKq/view?usp=sharing"><img src="assets/certificate-02.svg" width="48%" alt="Certificate 02 — click to open"/></a>
+
+<a href="https://drive.google.com/file/d/10PLzersw1Wb5bNrcuz5kdNp66oWmV6_S/view?usp=sharing"><img src="assets/certificate-03.svg" width="48%" alt="Certificate 03 — click to open"/></a>
+<a href="https://drive.google.com/file/d/1rRRvDeaHK0dRXefnNEynSp9ZNUKQ0S2f/view?usp=drive_link"><img src="assets/certificate-04.svg" width="48%" alt="Certificate 04 — click to open"/></a>
+
+<br>
+
+<a href="https://drive.google.com/drive/folders/1Ah4Pqwwus7iobKwaLDP9CrMMxO0FyvvB?usp=sharing"><img src="https://img.shields.io/badge/OPEN_FULL_CERTIFICATION_ARCHIVE-181717?style=for-the-badge&logo=google-drive&logoColor=C084FC" alt="Open certification archive"/></a>
 
 </div>
 
@@ -125,8 +120,6 @@ As the repositories grow, this space will evolve with them — real projects, re
 
 <br>
 
-<a href="https://github.com/Shameen-Khan">
-<img src="https://img.shields.io/badge/EXPLORE_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="Explore my GitHub"/>
-</a>
+<a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="Explore my GitHub"/></a>
 
 </div>
