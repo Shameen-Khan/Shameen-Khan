@@ -1,0 +1,102 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080808"/>
+    <stop offset="48%" stop-color="#22070A"/>
+    <stop offset="100%" stop-color="#090404"/>
+  </linearGradient>
+  <linearGradient id="armor" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#650A0A"/>
+    <stop offset="48%" stop-color="#C51F1F"/>
+    <stop offset="100%" stop-color="#5A0707"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFF0A6"/>
+    <stop offset="45%" stop-color="#F2C94C"/>
+    <stop offset="100%" stop-color="#9A6800"/>
+  </linearGradient>
+  <radialGradient id="arc">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="18%" stop-color="#CFF6FF"/>
+    <stop offset="44%" stop-color="#49D8FF"/>
+    <stop offset="100%" stop-color="#0A5F8A" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+  <style>
+    .name{font:700 58px Arial,sans-serif;fill:#FFFFFF;letter-spacing:5px}.role{font:600 20px Arial,sans-serif;fill:#FFD76A;letter-spacing:1.5px}.small{font:600 13px monospace;fill:#F2C94C}.tiny{font:500 11px monospace;fill:#FF8D8D}.blue{font:700 12px monospace;fill:#8FE9FF;letter-spacing:2px}.label{font:700 11px monospace;fill:#FFB3B3;letter-spacing:2px}
+  </style>
+</defs>
+
+<rect width="1200" height="460" rx="28" fill="url(#bg)"/>
+
+<!-- HUD grid -->
+<g opacity=".2" stroke="#C51F1F">
+  <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200"/>
+  <path d="M100 0V460M220 0V460M340 0V460M460 0V460M580 0V460M700 0V460M820 0V460M940 0V460M1060 0V460"/>
+</g>
+
+<!-- scanning HUD -->
+<rect x="18" y="18" width="1164" height="424" rx="22" fill="none" stroke="#C51F1F" stroke-opacity=".5"/>
+<path d="M32 95H250 M950 95H1168 M32 385H250 M950 385H1168" stroke="#F2C94C" stroke-width="2" opacity=".7"/>
+
+<!-- reactor glow -->
+<circle cx="600" cy="250" r="130" fill="url(#arc)" filter="url(#soft)" opacity=".55">
+  <animate attributeName="r" values="115;145;115" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="600" cy="250" r="74" fill="#0C1115" stroke="#D99A22" stroke-width="4"/>
+<polygon points="600,190 625,232 610,232 640,285 600,258 570,285 590,232 575,232" fill="#DDF8FF" filter="url(#glow)">
+  <animate attributeName="opacity" values=".7;1;.7" dur="1.8s" repeatCount="indefinite"/>
+</polygon>
+<circle cx="600" cy="250" r="55" fill="none" stroke="#4FDFFF" stroke-width="3" stroke-dasharray="8 12">
+  <animateTransform attributeName="transform" type="rotate" from="0 600 250" to="360 600 250" dur="8s" repeatCount="indefinite"/>
+</circle>
+
+<!-- abstract armored-mask silhouette -->
+<path d="M520 155 L555 120 L645 120 L680 155 L662 205 L640 225 L600 235 L560 225 L538 205 Z" fill="url(#armor)" stroke="#E3AF3A" stroke-width="3"/>
+<path d="M540 162 L572 140 L600 148 L628 140 L660 162 L650 190 L625 178 L600 190 L575 178 L550 190 Z" fill="#17080A" stroke="#F2C94C" stroke-opacity=".65"/>
+<path d="M565 154 L588 160 L575 170 L553 164 Z M635 154 L612 160 L625 170 L647 164 Z" fill="#EAFBFF" filter="url(#glow)"/>
+<path d="M600 181 L590 210 L610 210 Z" fill="#F2C94C" opacity=".7"/>
+
+<!-- animated energy lines -->
+<path d="M90 330 C260 250 360 300 480 360" fill="none" stroke="#D71920" stroke-width="3" opacity=".55">
+  <animate attributeName="stroke-opacity" values=".2;.9;.2" dur="2.8s" repeatCount="indefinite"/>
+</path>
+<path d="M1110 330 C940 250 840 300 720 360" fill="none" stroke="#D71920" stroke-width="3" opacity=".55">
+  <animate attributeName="stroke-opacity" values=".9;.2;.9" dur="2.8s" repeatCount="indefinite"/>
+</path>
+
+<!-- HUD text -->
+<g class="small">
+  <text x="48" y="52">ARC_REACTOR::ONLINE</text>
+  <text x="930" y="52">ARMOR_SYSTEM::READY</text>
+  <text x="52" y="400">AI_CORE • BUILD • DEBUG • DEPLOY</text>
+  <text x="920" y="400">MARK: SHAMEEN_01</text>
+</g>
+<g class="tiny">
+  <text x="50" y="120">POWER  ██████████████████  100%</text>
+  <text x="910" y="120">SYSTEM  STABLE</text>
+  <text x="50" y="145">TARGET  LEARNING</text>
+  <text x="950" y="145">MODE  BUILD</text>
+</g>
+
+<!-- identity -->
+<g text-anchor="middle">
+  <text x="600" y="330" class="name">SHAMEEN KHAN</text>
+  <text x="600" y="366" class="role">CSE (AI &amp; ML)  •  AI/ML  •  FULL-STACK  •  DSA</text>
+  <text x="600" y="392" class="blue">SYSTEM ONLINE • KEEP BUILDING</text>
+</g>
+
+<!-- corner brackets -->
+<g fill="none" stroke="#F2C94C" stroke-width="3">
+  <path d="M55 72V48H80 M1145 48H1170V72 M55 388V412H80 M1145 412H1170V388"/>
+</g>
+
+<!-- floating diagnostics -->
+<g class="label">
+  <text x="75" y="215">AI_MODULE</text>
+  <text x="75" y="236">ONLINE</text>
+  <text x="1015" y="215">REACTOR</text>
+  <text x="1015" y="236">STABLE</text>
+</g>
+</svg>
