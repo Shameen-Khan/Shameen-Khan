@@ -100,6 +100,16 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 </div>
 
+## 🏆 CERTIFICATIONS
+
+<div align="center">
+
+<img src="assets/certifications-orbit.svg" width="100%" alt="Animated purple certification showcase"/>
+
+</div>
+
+> Verified certificates will be added here as they are uploaded and confirmed. I won't list credentials that I haven't actually verified.
+
 ## 🚀 WHAT I'M BUILDING TOWARD
 
 > **Learn deeply. Build boldly. Solve better.**
