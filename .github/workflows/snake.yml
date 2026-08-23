@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Purple Contribution Snake
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate purple contribution snake
+      - name: Generate purple snake
         uses: Platane/snk@v3
         with:
           github_user_name: Shameen-Khan
@@ -22,9 +22,10 @@ jobs:
             dist/github-snake.svg?color_snake=%23A855F7&color_dots=%2318082B,%233B0764,%237E22CE,%23A855F7,%23E9D5FF
             dist/github-snake-dark.svg?color_snake=%23C084FC&color_dots=%2318082B,%233B0764,%237E22CE,%23A855F7,%23E9D5FF
 
-      - name: Publish generated SVGs
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Publish SVGs to output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
