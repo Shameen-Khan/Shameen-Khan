@@ -1,11 +1,20 @@
-<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="180" rx="18" fill="#0b0014"/>
-<style>.c{font:600 18px monospace;fill:#c084fc}</style>
-<g class="c">
-<text x="40" y="70">&lt;AI/&gt;</text><text x="180" y="125">Python</text><text x="330" y="60">{ ML }</text><text x="500" y="130">git commit</text><text x="690" y="70">LeetCode()</text><text x="880" y="125">&lt;React/&gt;</text><text x="1050" y="60">010101</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="Animated purple coding concepts">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07000d"/><stop offset=".5" stop-color="#170022"/><stop offset="1" stop-color="#07000d"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="190" rx="22" fill="url(#bg)"/>
+<g font-family="monospace" font-size="18" font-weight="700" fill="#c084fc" filter="url(#glow)">
+ <g><text x="55" y="65">&lt;AI/&gt;</text><animateTransform attributeName="transform" type="translate" values="0 8;0 -8;0 8" dur="4s" repeatCount="indefinite"/></g>
+ <g><text x="205" y="130">Python</text><animateTransform attributeName="transform" type="translate" values="0 -7;0 7;0 -7" dur="4.7s" repeatCount="indefinite"/></g>
+ <g><text x="365" y="58">{ ML }</text><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.8s" repeatCount="indefinite"/></g>
+ <g><text x="515" y="132">git commit</text><animateTransform attributeName="transform" type="translate" values="0 -6;0 6;0 -6" dur="5.1s" repeatCount="indefinite"/></g>
+ <g><text x="700" y="67">LeetCode()</text><animateTransform attributeName="transform" type="translate" values="0 7;0 -7;0 7" dur="4.3s" repeatCount="indefinite"/></g>
+ <g><text x="890" y="128">&lt;React/&gt;</text><animateTransform attributeName="transform" type="translate" values="0 -8;0 8;0 -8" dur="5.5s" repeatCount="indefinite"/></g>
+ <g><text x="1060" y="62">010101</text><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.5s" repeatCount="indefinite"/></g>
 </g>
-<g fill="none" stroke="#7e22ce" opacity=".45">
-<path d="M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145" stroke-width="2">
-<animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145;M0 120 Q150 165 300 120 T600 120 T900 120 T1200 120;M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145"/>
-</path></g>
+<path d="M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155" fill="none" stroke="#7e22ce" stroke-width="2" opacity=".55">
+ <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155;M0 120 Q150 180 300 120 T600 120 T900 120 T1200 120;M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155"/>
+</path>
+<g fill="#e9d5ff"><circle cx="120" cy="150" r="2"><animate attributeName="cy" values="150;120;150" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="600" cy="35" r="2"><animate attributeName="cy" values="35;55;35" dur="3s" repeatCount="indefinite"/></circle><circle cx="1080" cy="145" r="2"><animate attributeName="cy" values="145;115;145" dur="3.7s" repeatCount="indefinite"/></circle></g>
 </svg>
