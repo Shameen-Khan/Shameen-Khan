@@ -1,44 +1,44 @@
 <div align="center">
 
-<img src="assets/profile-header.svg" width="100%" alt="Shameen Khan — CSE AI ML, AI ML and Full Stack Development"/>
+<img src="assets/profile-header.svg" width="100%" alt="Shameen Khan — CSE AI & ML, AI/ML and Full-Stack Development"/>
 
 <img src="assets/floating-code.svg" width="100%" alt="Animated purple development symbols"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge)
 
-</div>
-
-## SOCIALS
-
-<div align="center">
-
-<a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=A855F7" alt="LinkedIn"/></a>
-<a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=C084FC" alt="LeetCode"/></a>
+<p>
+  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
+  <a href="https://leetcode.com/" ><img src="https://img.shields.io/badge/LeetCode-181717?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
+</p>
 
 </div>
 
-## ABOUT ME
+---
 
-I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on building strong programming fundamentals and turning ideas into practical projects.
+## 👋 ABOUT ME
 
-- 🤖 Exploring **AI & Machine Learning**
-- 💻 Practicing **DSA & LeetCode**
+I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on building strong programming fundamentals and turning ideas into practical software.
+
+- 🤖 Exploring **Artificial Intelligence & Machine Learning**
+- 💻 Practicing **Data Structures & Algorithms** through LeetCode
 - 🌐 Learning **Full-Stack Development**
-- 🐍 Python · ☕ Java · ⚙️ C
-- 🧠 Building practical projects and improving through consistent practice
+- 🐍 **Python** · ☕ **Java** · ⚙️ **C**
+- 🧠 Interested in building practical, real-world applications
+- 🚀 Continuously improving through projects, problem solving and experimentation
 
-## TECHNOLOGY STACK
+## 🛠️ TECHNOLOGY STACK
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,c,html,css,javascript,sql,git,github,vscode,flask,react,mysql" alt="Technology Stack"/>
+
+<img src="https://skillicons.dev/icons?i=python,java,c,html,css,javascript,sql,git,github,vscode,flask,react,mysql&perline=7" alt="Python, Java, C, HTML, CSS, JavaScript, SQL, Git, GitHub, VS Code, Flask, React and MySQL"/>
+
 </div>
 
-## CURRENT FOCUS
+## 🎯 CURRENT FOCUS
 
 <div align="center">
 
-| 🤖 AI / ML | 💻 DSA | 🌐 Full Stack |
+| 🤖 AI / ML | 💻 DSA | 🌐 FULL STACK |
 |:---:|:---:|:---:|
 | Machine Learning | Algorithms | Frontend |
 | AI Projects | LeetCode | Backend |
@@ -46,29 +46,29 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on bui
 
 </div>
 
-## GITHUB STATS
+## 📊 GITHUB STATS
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shameen-Khan&show_icons=true&theme=midnight-purple&hide_border=true&rank_icon=github" alt="Shameen Khan GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shameen-Khan&show_icons=true&theme=midnight-purple&hide_border=true&rank_icon=github&include_all_commits=true" alt="Shameen Khan GitHub statistics"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shameen-Khan&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shameen-Khan&layout=compact&theme=midnight-purple&hide_border=true&langs_count=8" alt="Shameen Khan most used programming languages"/>
 
 </div>
 
-## CONTRIBUTION STREAK
+## 🔥 CONTRIBUTION STREAK
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Shameen-Khan&theme=black-ice&hide_border=true&ring=A855F7&fire=C084FC&currStreakLabel=C084FC" alt="GitHub Contribution Streak"/>
+<img src="https://streak-stats.demolab.com?user=Shameen-Khan&theme=black-ice&hide_border=true&ring=A855F7&fire=C084FC&currStreakLabel=C084FC&sideLabels=C084FC" alt="Shameen Khan GitHub contribution streak"/>
 
 </div>
 
-## CONTRIBUTION ACTIVITY
+## 📈 CONTRIBUTION ACTIVITY
 
 <div align="center">
 
-[![Shameen Khan Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shameen-Khan&bg_color=09000f&color=C084FC&line=A855F7&point=E9D5FF&area=true&area_color=3B0764&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/Shameen-Khan)
+[![Shameen Khan GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Shameen-Khan&bg_color=09000f&color=C084FC&line=A855F7&point=E9D5FF&area=true&area_color=3B0764&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/Shameen-Khan)
 
 </div>
 
@@ -76,32 +76,46 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on bui
 
 <div align="center">
 
-![GitHub Contribution Snake](https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake-purple.svg)
+<img src="https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake.svg" width="100%" alt="Animated GitHub contribution snake in purple"/>
 
 </div>
 
-## GOALS
+## 🚀 WHAT I'M BUILDING TOWARD
 
-- Build strong **DSA and problem-solving fundamentals**
-- Develop meaningful **AI/ML projects**
-- Become proficient in **full-stack development**
-- Contribute to **open source**
-- Build a strong portfolio of real-world projects
+- Strong **DSA and problem-solving** fundamentals
+- Practical **AI/ML applications**
+- Solid **full-stack development** skills
+- Meaningful **open-source contributions**
+- A portfolio of real-world software projects
 
-## FEATURED REPOSITORIES
+## 📂 FEATURED REPOSITORIES
 
-- 🧠 **LeetCode** — DSA and coding practice
-- 🤖 **AI/ML Projects** — Machine learning experiments and applications
-- 🌐 **Web Projects** — Frontend and backend development
+<div align="center">
 
-## CONNECT
+<a href="https://github.com/Shameen-Khan/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shameen-Khan&repo=LeetCode&theme=midnight-purple&hide_border=true" alt="LeetCode repository"/></a>
+
+</div>
+
+## 🧩 PROBLEM SOLVING
+
+My LeetCode repository tracks my progress in **Data Structures & Algorithms**, with emphasis on understanding patterns, writing clean solutions and thinking about time and space complexity.
+
+→ **[View my LeetCode solutions](https://github.com/Shameen-Khan/LeetCode)**
+
+## 🤝 CONNECT
 
 <div align="center">
 
 <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-Shameen--Khan-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
 
-<br/><br/>
+</div>
+
+<br/>
+
+<div align="center">
 
 ### <span style="color:#A855F7">Build. Learn. Experiment. Repeat.</span>
+
+<i>One problem. One project. One improvement at a time.</i>
 
 </div>
