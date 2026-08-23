@@ -104,22 +104,9 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<img src="assets/certifications-orbit.svg" width="100%" alt="Animated purple certification showcase"/>
-
-<a href="https://drive.google.com/file/d/1RQvqpIVC_A5FVgtq1FLE6JxcSowUzONs/view?usp=drive_link"><img src="https://img.shields.io/badge/CREDENTIAL_01-VIEW-A855F7?style=for-the-badge&logo=google-drive&logoColor=white" alt="View credential 1"/></a>
-<a href="https://drive.google.com/file/d/1OcDfrQETdrnkbtzA34o3AdZHIbNzjrKq/view?usp=sharing"><img src="https://img.shields.io/badge/CREDENTIAL_02-VIEW-7C3AED?style=for-the-badge&logo=google-drive&logoColor=white" alt="View credential 2"/></a>
-<a href="https://drive.google.com/file/d/10PLzersw1Wb5bNrcuz5kdNp66oWmV6_S/view?usp=sharing"><img src="https://img.shields.io/badge/CREDENTIAL_03-VIEW-A855F7?style=for-the-badge&logo=google-drive&logoColor=white" alt="View credential 3"/></a>
-<a href="https://drive.google.com/file/d/1rRRvDeaHK0dRXefnNEynSp9ZNUKQ0S2f/view?usp=drive_link"><img src="https://img.shields.io/badge/CREDENTIAL_04-VIEW-7C3AED?style=for-the-badge&logo=google-drive&logoColor=white" alt="View credential 4"/></a>
-
-<br><br>
-
-<a href="https://drive.google.com/drive/folders/1Ah4Pqwwus7iobKwaLDP9CrMMxO0FyvvB?usp=sharing">
-<img src="https://img.shields.io/badge/OPEN_CERTIFICATION_ARCHIVE-181717?style=for-the-badge&logo=google-drive&logoColor=C084FC" alt="Open certification archive"/>
-</a>
+<img src="assets/certifications-orbit.svg" width="100%" alt="Animated purple certification showcase containing four credential cards"/>
 
 </div>
-
-> The four credentials above are linked directly to the Drive files you provided. Their certificate names and issuers are intentionally not guessed because the Drive files could not be inspected from this environment.
 
 ## 🚀 WHAT I'M BUILDING TOWARD
 
