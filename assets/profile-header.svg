@@ -1,31 +1,32 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Shameen Khan profile header">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#09000f"/><stop offset="50%" stop-color="#18002b"/><stop offset="100%" stop-color="#08000d"/>
-  </linearGradient>
-  <radialGradient id="glow"><stop offset="0%" stop-color="#a855f7" stop-opacity=".55"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
-  <style>
-    .title{font:700 48px Arial,sans-serif;fill:#fff}.sub{font:400 20px Arial,sans-serif;fill:#d8b4fe}.code{font:600 16px monospace;fill:#a855f7;opacity:.6}
-  </style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050008"/><stop offset=".5" stop-color="#160024"/><stop offset="1" stop-color="#050008"/></linearGradient>
+  <radialGradient id="g"><stop stop-color="#a855f7" stop-opacity=".48"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#a855f7" stroke-opacity=".08"/></pattern>
 </defs>
-<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-<circle cx="180" cy="80" r="180" fill="url(#glow)" filter="url(#blur)"><animate attributeName="cx" values="180;260;180" dur="7s" repeatCount="indefinite"/></circle>
-<circle cx="1010" cy="250" r="220" fill="url(#glow)" filter="url(#blur)"><animate attributeName="cy" values="250;170;250" dur="9s" repeatCount="indefinite"/></circle>
-<g class="code">
-<text x="70" y="55">&lt;/&gt;</text><text x="1060" y="70">{ AI }</text><text x="95" y="275">python()</text><text x="1000" y="275">while(true)</text>
-<text x="360" y="35">01</text><text x="820" y="305">ML_MODEL</text>
-<text x="50" y="150">&lt;build /&gt;</text><text x="950" y="145">git push</text>
+<rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="330" rx="28" fill="url(#grid)"/>
+<ellipse cx="150" cy="80" rx="230" ry="180" fill="url(#g)" filter="url(#blur)"><animate attributeName="cx" values="150;280;150" dur="8s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="1050" cy="270" rx="250" ry="190" fill="url(#g)" filter="url(#blur)"><animate attributeName="cy" values="270;180;270" dur="10s" repeatCount="indefinite"/></ellipse>
+<g fill="none" stroke="#a855f7" stroke-opacity=".35">
+ <path d="M0 285 C180 210 270 330 450 250 S760 180 1200 260" stroke-width="2"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 285 C180 210 270 330 450 250 S760 180 1200 260;M0 250 C180 330 270 200 450 290 S760 330 1200 220;M0 285 C180 210 270 330 450 250 S760 180 1200 260"/></path>
+ <path d="M0 70 C180 145 300 15 500 80 S900 130 1200 55" stroke-width="1" opacity=".5"><animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 70 C180 145 300 15 500 80 S900 130 1200 55;M0 100 C180 20 300 150 500 65 S900 10 1200 95;M0 70 C180 145 300 15 500 80 S900 130 1200 55"/></path>
 </g>
-<g text-anchor="middle">
-<text x="600" y="145" class="title">SHAMEEN KHAN</text>
-<text x="600" y="185" class="sub">CSE (AI &amp; ML)  •  AI/ML  •  Full-Stack Development</text>
-<text x="600" y="220" class="sub">Learn • Build • Experiment • Improve</text>
+<g font-family="monospace" font-size="15" fill="#c084fc" opacity=".6">
+ <text x="55" y="55">&lt;/&gt;</text><text x="1040" y="55">{ AI }</text><text x="70" y="290">python()</text><text x="1010" y="290">git push</text>
+ <text x="190" y="95">01</text><text x="930" y="105">ML_MODEL</text>
 </g>
-<g fill="#c084fc">
-<circle cx="300" cy="95" r="3"><animate attributeName="cy" values="95;65;95" dur="3s" repeatCount="indefinite"/></circle>
-<circle cx="900" cy="100" r="3"><animate attributeName="cy" values="100;135;100" dur="4s" repeatCount="indefinite"/></circle>
-<circle cx="330" cy="235" r="2"><animate attributeName="cx" values="330;380;330" dur="5s" repeatCount="indefinite"/></circle>
-<circle cx="870" cy="235" r="2"><animate attributeName="cx" values="870;820;870" dur="6s" repeatCount="indefinite"/></circle>
+<g text-anchor="middle" font-family="Arial,sans-serif">
+ <text x="600" y="145" font-size="52" font-weight="800" fill="white">SHAMEEN KHAN</text>
+ <text x="600" y="188" font-size="20" fill="#d8b4fe">CSE (AI &amp; ML)  •  AI/ML  •  Full-Stack Development</text>
+ <text x="600" y="224" font-size="16" fill="#a855f7">LEARN  •  BUILD  •  EXPERIMENT  •  IMPROVE</text>
+</g>
+<g fill="#e9d5ff">
+ <circle cx="310" cy="130" r="3"><animate attributeName="cy" values="130;90;130" dur="2.8s" repeatCount="indefinite"/></circle>
+ <circle cx="880" cy="155" r="3"><animate attributeName="cy" values="155;190;155" dur="3.6s" repeatCount="indefinite"/></circle>
+ <circle cx="400" cy="270" r="2"><animate attributeName="cx" values="400;450;400" dur="4.5s" repeatCount="indefinite"/></circle>
+ <circle cx="800" cy="275" r="2"><animate attributeName="cx" values="800;750;800" dur="5.2s" repeatCount="indefinite"/></circle>
 </g>
 </svg>
