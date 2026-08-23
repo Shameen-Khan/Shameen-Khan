@@ -1,0 +1,11 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="180" rx="18" fill="#0b0014"/>
+<style>.c{font:600 18px monospace;fill:#c084fc}</style>
+<g class="c">
+<text x="40" y="70">&lt;AI/&gt;</text><text x="180" y="125">Python</text><text x="330" y="60">{ ML }</text><text x="500" y="130">git commit</text><text x="690" y="70">LeetCode()</text><text x="880" y="125">&lt;React/&gt;</text><text x="1050" y="60">010101</text>
+</g>
+<g fill="none" stroke="#7e22ce" opacity=".45">
+<path d="M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145" stroke-width="2">
+<animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145;M0 120 Q150 165 300 120 T600 120 T900 120 T1200 120;M0 145 Q150 70 300 145 T600 145 T900 145 T1200 145"/>
+</path></g>
+</svg>
