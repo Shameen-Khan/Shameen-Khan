@@ -1,0 +1,21 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0613"/><stop offset="1" stop-color="#160a25"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.t{font:500 16px monospace;fill:#d8b4fe}.p{font:700 16px monospace;fill:#c084fc}.g{font:500 16px monospace;fill:#a7f3d0}.w{font:500 16px monospace;fill:#fff}.muted{font:500 13px monospace;fill:#8b5cf6}</style>
+</defs>
+<rect x="10" y="10" width="1180" height="280" rx="22" fill="url(#panel)" stroke="#7e22ce" stroke-width="1.5"/>
+<circle cx="38" cy="37" r="6" fill="#c084fc"/><circle cx="60" cy="37" r="6" fill="#a855f7"/><circle cx="82" cy="37" r="6" fill="#7e22ce"/>
+<text x="105" y="42" class="muted">shameen@dev — interactive-profile</text>
+<g class="t">
+ <text x="45" y="85" class="p">$ whoami</text><text x="160" y="85" class="w">Shameen Khan</text>
+ <text x="45" y="120" class="p">$ focus</text><text x="140" y="120" class="g">AI/ML • DSA • Full-Stack</text>
+ <text x="45" y="155" class="p">$ languages</text><text x="175" y="155" class="w">Python • Java • C • SQL</text>
+ <text x="45" y="190" class="p">$ current_project</text><text x="220" y="190" class="w">building things that should exist</text>
+ <text x="45" y="225" class="p">$ status</text><text x="145" y="225" class="g">ONLINE • LEARNING • BUILDING</text>
+ <text x="45" y="260" class="p">$ _</text>
+</g>
+<rect x="78" y="246" width="8" height="18" fill="#c084fc" filter="url(#glow)"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<path d="M760 80 C860 30,1000 50,1110 120 C1030 160,970 220,820 245" fill="none" stroke="#7e22ce" stroke-opacity=".4" stroke-width="2"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M760 80 C860 30,1000 50,1110 120 C1030 160,970 220,820 245;M760 100 C860 150,1000 30,1110 160 C1030 210,970 170,820 245;M760 80 C860 30,1000 50,1110 120 C1030 160,970 220,820 245"/></path>
+<circle cx="820" cy="245" r="4" fill="#c084fc"><animate attributeName="cx" values="820;1110;820" dur="7s" repeatCount="indefinite"/><animate attributeName="cy" values="245;120;245" dur="7s" repeatCount="indefinite"/></circle>
+</svg>
