@@ -92,6 +92,14 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 </div>
 
+## 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake.svg" width="100%" alt="Animated purple GitHub contribution snake"/>
+
+</div>
+
 ## 🚀 WHAT I'M BUILDING TOWARD
 
 > **Learn deeply. Build boldly. Solve better.**
