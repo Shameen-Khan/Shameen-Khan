@@ -6,10 +6,6 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge)
 
-<p>
-  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
-</p>
-
 </div>
 
 ---
@@ -86,6 +82,8 @@ I use LeetCode to strengthen **Data Structures & Algorithms**, understand reusab
 <div align="center">
 
 <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-Shameen--Khan-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/shameenkhan-j"><img src="https://img.shields.io/badge/LinkedIn-181717?style=for-the-badge&logo=linkedin&logoColor=C084FC" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/shameen_writes/"><img src="https://img.shields.io/badge/Instagram-181717?style=for-the-badge&logo=instagram&logoColor=C084FC" alt="Instagram"/></a>
 
 </div>
 
