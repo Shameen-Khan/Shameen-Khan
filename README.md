@@ -41,16 +41,6 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on bui
 | AI Projects | LeetCode | Backend |
 | Model Building | Problem Solving | APIs |
 
-## 📊 GITHUB STATS
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shameen-Khan&show_icons=true&theme=midnight-purple&hide_border=true&rank_icon=github&include_all_commits=true" alt="Shameen Khan GitHub statistics"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shameen-Khan&layout=compact&theme=midnight-purple&hide_border=true&langs_count=8" alt="Shameen Khan most used programming languages"/>
-
-</div>
-
 ## 🔥 CONTRIBUTION STREAK
 
 <div align="center">
@@ -84,14 +74,6 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on bui
 - Solid **full-stack development** skills
 - Meaningful **open-source contributions**
 - A portfolio of real-world software projects
-
-## 📂 FEATURED REPOSITORY
-
-<div align="center">
-
-<a href="https://github.com/Shameen-Khan/LeetCode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Shameen-Khan&repo=LeetCode&theme=midnight-purple&hide_border=true" alt="Shameen Khan LeetCode repository"/></a>
-
-</div>
 
 ## 🧩 PROBLEM SOLVING
 
