@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan purple animated developer universe"/>
+<img src="assets/ironman-core.svg" width="100%" alt="Iron Man-inspired animated developer HUD for Shameen Khan"/>
 
 <p>
-  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
-  <a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/LeetCode-0B0712?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
-  <a href="https://www.linkedin.com/in/shameenkhan-j"><img src="https://img.shields.io/badge/LinkedIn-0B0712?style=for-the-badge&logo=linkedin&logoColor=70A5FD" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/shameen_writes/"><img src="https://img.shields.io/badge/Instagram-0B0712?style=for-the-badge&logo=instagram&logoColor=E879F9" alt="Instagram"/></a>
+  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=F2C94C" alt="GitHub"/></a>
+  <a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/LeetCode-0B0712?style=for-the-badge&logo=leetcode&logoColor=F2C94C" alt="LeetCode"/></a>
+  <a href="https://www.linkedin.com/in/shameenkhan-j"><img src="https://img.shields.io/badge/LinkedIn-0B0712?style=for-the-badge&logo=linkedin&logoColor=F2C94C" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/shameen_writes/"><img src="https://img.shields.io/badge/Instagram-0B0712?style=for-the-badge&logo=instagram&logoColor=F2C94C" alt="Instagram"/></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=7C3AED&style=for-the-badge" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=C51F1F&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
@@ -62,8 +62,8 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/OPEN_MY_LEETCODE_PROFILE-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="Open LeetCode profile"/></a>
-<a href="https://github.com/Shameen-Khan/LeetCode"><img src="https://img.shields.io/badge/VIEW_MY_GITHUB_SOLUTIONS-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub LeetCode solutions"/></a>
+<a href="https://leetcode.com/u/SHAMEENKHAN/"><img src="https://img.shields.io/badge/OPEN_MY_LEETCODE_PROFILE-C51F1F?style=for-the-badge&logo=leetcode&logoColor=F2C94C" alt="Open LeetCode profile"/></a>
+<a href="https://github.com/Shameen-Khan/LeetCode"><img src="https://img.shields.io/badge/VIEW_MY_GITHUB_SOLUTIONS-9A6B00?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="View GitHub LeetCode solutions"/></a>
 
 </div>
 
@@ -71,11 +71,11 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Shameen-Khan&theme=black-ice&hide_border=true&ring=A855F7&fire=C084FC&currStreakLabel=C084FC&sideLabels=C084FC" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.demolab.com?user=Shameen-Khan&theme=black-ice&hide_border=true&ring=C51F1F&fire=F2C94C&currStreakLabel=F2C94C&sideLabels=F2C94C" alt="GitHub contribution streak"/>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shameen-Khan&bg_color=09000f&color=C084FC&line=A855F7&point=E9D5FF&area=true&area_color=3B0764&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="GitHub contribution activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shameen-Khan&bg_color=090505&color=F2C94C&line=C51F1F&point=FFF0A6&area=true&area_color=5A0707&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="GitHub contribution activity graph"/>
 
 </div>
 
@@ -83,7 +83,7 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake.svg" width="100%" alt="Animated purple GitHub contribution snake"/>
+<img src="https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake.svg" width="100%" alt="Animated contribution snake"/>
 
 </div>
 
@@ -99,7 +99,7 @@ I use LeetCode to sharpen **Data Structures & Algorithms**, understand reusable 
 
 <br>
 
-<a href="https://drive.google.com/drive/folders/1Ah4Pqwwus7iobKwaLDP9CrMMxO0FyvvB?usp=sharing"><img src="https://img.shields.io/badge/OPEN_FULL_CERTIFICATION_ARCHIVE-181717?style=for-the-badge&logo=google-drive&logoColor=C084FC" alt="Open certification archive"/></a>
+<a href="https://drive.google.com/drive/folders/1Ah4Pqwwus7iobKwaLDP9CrMMxO0FyvvB?usp=sharing"><img src="https://img.shields.io/badge/OPEN_FULL_CERTIFICATION_ARCHIVE-181717?style=for-the-badge&logo=google-drive&logoColor=F2C94C" alt="Open certification archive"/></a>
 
 </div>
 
@@ -115,11 +115,8 @@ As the repositories grow, this space will evolve with them — real projects, re
 
 <div align="center">
 
-### 💜 There is no “final version”.
-### The profile is a live build.
+### ❤️‍🔥 Build. Learn. Upgrade. Repeat.
 
-<br>
-
-<a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="Explore my GitHub"/></a>
+<i>One problem. One project. One improvement at a time.</i>
 
 </div>
