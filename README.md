@@ -2,17 +2,28 @@
 
 <img src="assets/profile-header.svg" width="100%" alt="Shameen Khan — CSE AI and ML, AI and ML, and Full-Stack Development"/>
 
+<img src="assets/floating-code.svg" width="100%" alt="Animated purple coding and technology banner"/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Shameen-Khan&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge)
+
+<p>
+  <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
+</p>
+
 </div>
+
+---
 
 ## 👋 ABOUT ME
 
-I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on programming, problem solving, and building practical software.
+I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on building strong programming fundamentals and turning ideas into practical software.
 
 - 🤖 Exploring **Artificial Intelligence & Machine Learning**
 - 💻 Practicing **Data Structures & Algorithms** through LeetCode
 - 🌐 Learning **Full-Stack Development**
 - 🐍 **Python** · ☕ **Java** · ⚙️ **C**
 - 🧠 Interested in practical, real-world applications
+- 🚀 Improving through projects, problem solving and experimentation
 
 ## 🛠️ TECHNOLOGY STACK
 
@@ -58,6 +69,22 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on pro
 
 </div>
 
+## 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Shameen-Khan/Shameen-Khan/output/github-snake.svg" width="100%" alt="Animated purple GitHub contribution snake"/>
+
+</div>
+
+## 🚀 WHAT I'M BUILDING TOWARD
+
+- Strong **DSA and problem-solving** fundamentals
+- Practical **AI/ML applications**
+- Solid **full-stack development** skills
+- Meaningful **open-source contributions**
+- A portfolio of real-world software projects
+
 ## 📂 FEATURED REPOSITORY
 
 <div align="center">
@@ -71,14 +98,6 @@ I'm a **B.E. Computer Science and Engineering (AI & ML)** student focused on pro
 I use LeetCode to strengthen **Data Structures & Algorithms**, understand reusable problem-solving patterns, and improve time and space complexity awareness.
 
 **→ [View my LeetCode solutions](https://github.com/Shameen-Khan/LeetCode)**
-
-## 🚀 WHAT I'M BUILDING TOWARD
-
-- Strong **DSA and problem-solving** fundamentals
-- Practical **AI/ML applications**
-- Solid **full-stack development** skills
-- Meaningful **open-source contributions**
-- A portfolio of real-world software projects
 
 ## 🤝 CONNECT
 
