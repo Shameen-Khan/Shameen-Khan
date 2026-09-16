@@ -1,20 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="Animated purple coding concepts">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+<title id="title">The learning constellation</title>
+<desc id="desc">Python, Java, C, AI/ML, Full-Stack and DSA form a connected constellation with moving starlight.</desc>
 <defs>
- <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07000d"/><stop offset=".5" stop-color="#170022"/><stop offset="1" stop-color="#07000d"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="space" x2="1" y2="1"><stop stop-color="#030711"/><stop offset=".53" stop-color="#100d29"/><stop offset="1" stop-color="#040918"/></linearGradient>
+<radialGradient id="violet"><stop stop-color="#8b4af4" stop-opacity=".45"/><stop offset=".5" stop-color="#50288d" stop-opacity=".18"/><stop offset="1" stop-color="#50288d" stop-opacity="0"/></radialGradient>
+<radialGradient id="blue"><stop stop-color="#35bff5" stop-opacity=".28"/><stop offset="1" stop-color="#1673bf" stop-opacity="0"/></radialGradient>
+<radialGradient id="heart"><stop stop-color="#fffde6"/><stop offset=".12" stop-color="#ffe4cf" stop-opacity=".95"/><stop offset=".3" stop-color="#d8a2ff" stop-opacity=".7"/><stop offset="1" stop-color="#9b68fd" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".3" cy=".23" r=".8"><stop stop-color="#cfb9f5"/><stop offset=".2" stop-color="#7369b4"/><stop offset=".53" stop-color="#343368"/><stop offset=".8" stop-color="#101529"/><stop offset="1" stop-color="#040810"/></radialGradient>
+<linearGradient id="ring"><stop stop-color="#576da5" stop-opacity=".2"/><stop offset=".45" stop-color="#e2b9ff"/><stop offset=".68" stop-color="#99d9f8"/><stop offset="1" stop-color="#68578b" stop-opacity=".2"/></linearGradient>
+<linearGradient id="trail"><stop stop-color="#b1e9ff" stop-opacity="0"/><stop offset="1" stop-color="#e5f8ff"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#9d79ea" stop-opacity=".1"/><stop offset=".45" stop-color="#b4a0ff" stop-opacity=".65"/><stop offset="1" stop-color="#5de0e6" stop-opacity=".15"/></linearGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+<clipPath id="frame"><rect x="1" y="1" width="1198" height="208" rx="24"/></clipPath>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace;letter-spacing:2px}
+.turn{animation:spin 70s linear infinite;transform-origin:0px 0px}
+.reverse{animation-direction:reverse;animation-duration:95s}
+.float{animation:float 9s ease-in-out infinite}
+.drift{animation:drift 24s ease-in-out infinite alternate}
+.twinkle{animation:twinkle 5s ease-in-out infinite alternate}
+.pulse{animation:pulse 7s ease-in-out infinite}
+.flow{animation:flow 18s linear infinite}
+.meteor{opacity:0;animation:meteor 13s ease-in-out infinite}
+.cursor{animation:cursor 1.4s steps(2,end) infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes drift{to{transform:translate(28px,-16px)}}
+@keyframes twinkle{from{opacity:.2}to{opacity:.85}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:.95}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes meteor{0%,72%,100%{opacity:0;transform:translate(0,0)}74%{opacity:.85}84%{opacity:0;transform:translate(-290px,150px)}}
+@keyframes cursor{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.meteor{display:none}}
+</style>
 </defs>
-<rect width="1200" height="190" rx="22" fill="url(#bg)"/>
-<g font-family="monospace" font-size="18" font-weight="700" fill="#c084fc" filter="url(#glow)">
- <g><text x="55" y="65">&lt;AI/&gt;</text><animateTransform attributeName="transform" type="translate" values="0 8;0 -8;0 8" dur="4s" repeatCount="indefinite"/></g>
- <g><text x="205" y="130">Python</text><animateTransform attributeName="transform" type="translate" values="0 -7;0 7;0 -7" dur="4.7s" repeatCount="indefinite"/></g>
- <g><text x="365" y="58">{ ML }</text><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.8s" repeatCount="indefinite"/></g>
- <g><text x="515" y="132">git commit</text><animateTransform attributeName="transform" type="translate" values="0 -6;0 6;0 -6" dur="5.1s" repeatCount="indefinite"/></g>
- <g><text x="700" y="67">LeetCode()</text><animateTransform attributeName="transform" type="translate" values="0 7;0 -7;0 7" dur="4.3s" repeatCount="indefinite"/></g>
- <g><text x="890" y="128">&lt;React/&gt;</text><animateTransform attributeName="transform" type="translate" values="0 -8;0 8;0 -8" dur="5.5s" repeatCount="indefinite"/></g>
- <g><text x="1060" y="62">010101</text><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.5s" repeatCount="indefinite"/></g>
+<g clip-path="url(#frame)">
+<rect width="1200" height="210" fill="url(#space)"/>
+
+<ellipse cx="600" cy="130" rx="560" ry="190" fill="url(#violet)"/>
+<g fill="#c9d8f5"><circle cx="834.5" cy="140.8" r="0.62" opacity="0.50"/><circle cx="615.4" cy="131.1" r="1.25" opacity="0.68"/><circle cx="809.6" cy="66.4" r="1.12" opacity="0.50"/><circle cx="1165.9" cy="2.9" r="0.98" opacity="0.42"/><circle cx="831.8" cy="63.9" r="0.64" opacity="0.69"/><circle cx="1046.3" cy="205.8" r="1.59" opacity="0.26"/><circle cx="464.1" cy="142.7" r="0.91" opacity="0.50"/><circle cx="661.9" cy="174.5" r="0.93" opacity="0.50"/><circle cx="782.1" cy="182.7" r="0.82" opacity="0.38"/><circle cx="1117.1" cy="87.9" r="0.53" opacity="0.31"/><circle cx="716.0" cy="30.0" r="1.50" opacity="0.25"/><circle cx="734.1" cy="168.6" r="1.13" opacity="0.44"/><circle cx="600.2" cy="197.6" r="1.08" opacity="0.65"/><circle cx="677.4" cy="47.4" r="1.02" opacity="0.29"/><circle cx="54.8" cy="74.7" r="0.47" opacity="0.57"/><circle cx="207.1" cy="37.7" r="0.83" opacity="0.57"/><circle cx="1156.4" cy="112.2" r="1.17" opacity="0.52"/><circle cx="621.6" cy="81.8" r="1.15" opacity="0.61"/><circle cx="1199.2" cy="73.6" r="0.73" opacity="0.77"/><circle cx="359.1" cy="63.2" r="1.33" opacity="0.34"/><circle cx="969.8" cy="83.6" r="0.46" opacity="0.30"/><circle cx="845.3" cy="53.4" r="1.47" opacity="0.65"/><circle cx="115.6" cy="83.5" r="0.68" opacity="0.66"/><circle cx="960.9" cy="117.2" r="1.41" opacity="0.26"/><circle cx="86.9" cy="136.5" r="1.43" opacity="0.79"/><circle cx="579.2" cy="185.8" r="0.84" opacity="0.60"/><circle cx="644.7" cy="2.6" r="0.75" opacity="0.76"/><circle cx="1071.0" cy="153.4" r="0.55" opacity="0.45"/><circle cx="532.9" cy="80.6" r="0.90" opacity="0.31"/><circle cx="587.7" cy="133.1" r="1.20" opacity="0.69"/><circle cx="1081.4" cy="86.5" r="1.11" opacity="0.52"/><circle cx="577.9" cy="103.1" r="1.36" opacity="0.42"/><circle cx="210.8" cy="182.1" r="1.33" opacity="0.50"/><circle cx="501.7" cy="63.9" r="0.68" opacity="0.46"/><circle cx="792.3" cy="88.5" r="1.06" opacity="0.74"/><circle cx="910.1" cy="142.3" r="1.11" opacity="0.74"/><circle cx="889.9" cy="82.6" r="0.95" opacity="0.37"/><circle cx="194.1" cy="10.0" r="0.61" opacity="0.77"/><circle cx="42.1" cy="80.7" r="0.46" opacity="0.49"/><circle cx="579.1" cy="187.5" r="0.73" opacity="0.77"/><circle cx="777.9" cy="71.0" r="1.25" opacity="0.38"/><circle cx="436.9" cy="36.6" r="0.50" opacity="0.43"/><circle cx="444.2" cy="87.0" r="0.47" opacity="0.59"/><circle cx="533.4" cy="68.5" r="0.65" opacity="0.39"/><circle cx="528.8" cy="185.5" r="0.63" opacity="0.50"/><circle cx="558.7" cy="36.1" r="1.53" opacity="0.39"/><circle cx="291.3" cy="62.0" r="0.50" opacity="0.25"/><circle cx="977.5" cy="153.6" r="0.89" opacity="0.79"/><circle cx="597.2" cy="109.9" r="0.83" opacity="0.50"/><circle cx="226.0" cy="38.1" r="0.83" opacity="0.40"/><circle cx="517.3" cy="10.7" r="1.36" opacity="0.50"/><circle cx="60.0" cy="109.0" r="0.80" opacity="0.74"/><circle cx="1195.0" cy="159.2" r="1.43" opacity="0.73"/><circle cx="422.0" cy="193.5" r="0.61" opacity="0.61"/><circle cx="230.1" cy="48.4" r="1.20" opacity="0.69"/><circle cx="840.6" cy="110.5" r="1.18" opacity="0.36"/><circle cx="777.9" cy="93.9" r="1.44" opacity="0.48"/><circle cx="1066.7" cy="182.3" r="0.56" opacity="0.37"/><circle cx="134.5" cy="83.0" r="0.55" opacity="0.28"/><circle cx="700.8" cy="174.9" r="1.04" opacity="0.59"/><circle cx="80.7" cy="86.7" r="1.39" opacity="0.45"/><circle cx="853.9" cy="182.0" r="0.84" opacity="0.69"/><circle cx="398.6" cy="197.4" r="1.47" opacity="0.79"/></g><g fill="#f0e3ff" class="twinkle"><circle cx="0.6" cy="170.7" r="1.17" opacity="0.64"/><circle cx="1160.4" cy="108.3" r="1.24" opacity="0.50"/><circle cx="701.2" cy="37.8" r="0.82" opacity="0.80"/><circle cx="325.9" cy="50.3" r="0.86" opacity="0.22"/><circle cx="126.0" cy="20.3" r="1.41" opacity="0.27"/><circle cx="556.5" cy="83.9" r="0.52" opacity="0.29"/><circle cx="731.3" cy="80.1" r="0.50" opacity="0.70"/><circle cx="188.5" cy="142.7" r="1.44" opacity="0.46"/><circle cx="144.0" cy="57.8" r="0.94" opacity="0.62"/><circle cx="1057.7" cy="81.3" r="1.03" opacity="0.71"/><circle cx="726.5" cy="193.4" r="0.55" opacity="0.58"/><circle cx="1145.8" cy="11.0" r="0.99" opacity="0.51"/><circle cx="271.7" cy="163.1" r="1.19" opacity="0.78"/><circle cx="1116.1" cy="155.4" r="1.19" opacity="0.64"/><circle cx="959.2" cy="159.4" r="1.29" opacity="0.62"/><circle cx="72.9" cy="96.9" r="0.82" opacity="0.25"/><circle cx="872.5" cy="125.5" r="1.32" opacity="0.24"/><circle cx="144.2" cy="7.9" r="0.88" opacity="0.24"/><circle cx="321.2" cy="178.7" r="1.02" opacity="0.55"/><circle cx="937.8" cy="16.9" r="0.69" opacity="0.43"/><circle cx="586.6" cy="64.7" r="1.04" opacity="0.32"/><circle cx="855.2" cy="51.2" r="1.34" opacity="0.23"/></g>
+<text x="40" y="37" font-size="11" fill="#b8a5df" class="mono">THE LEARNING CONSTELLATION</text>
+<path d="M100 110L300 140 500 99 700 135 900 97 1100 122" fill="none" stroke="#8c99ce" stroke-opacity=".4"/>
+<path class="flow" d="M100 110L300 140 500 99 700 135 900 97 1100 122" fill="none" stroke="#bcb5fa" stroke-dasharray="3 45" stroke-opacity=".7"/>
+<g transform="translate(100 110)"><g class="float" style="animation-delay:-0s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">Python</text></g></g><g transform="translate(300 140)"><g class="float" style="animation-delay:-1.6s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">Java</text></g></g><g transform="translate(500 99)"><g class="float" style="animation-delay:-3.2s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">C</text></g></g><g transform="translate(700 135)"><g class="float" style="animation-delay:-4.800000000000001s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">AI / ML</text></g></g><g transform="translate(900 97)"><g class="float" style="animation-delay:-6.4s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">Full-Stack</text></g></g><g transform="translate(1100 122)"><g class="float" style="animation-delay:-8s"><circle r="27" fill="url(#heart)" opacity=".45"/><circle r="4" fill="#ddd5ff"/><circle r="14" fill="none" stroke="#b3afff" stroke-opacity=".4"/><text y="42" text-anchor="middle" font-size="15" fill="#d5dcf1">DSA</text></g></g>
+
 </g>
-<path d="M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155" fill="none" stroke="#7e22ce" stroke-width="2" opacity=".55">
- <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155;M0 120 Q150 180 300 120 T600 120 T900 120 T1200 120;M0 155 Q150 75 300 155 T600 155 T900 155 T1200 155"/>
-</path>
-<g fill="#e9d5ff"><circle cx="120" cy="150" r="2"><animate attributeName="cy" values="150;120;150" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="600" cy="35" r="2"><animate attributeName="cy" values="35;55;35" dur="3s" repeatCount="indefinite"/></circle><circle cx="1080" cy="145" r="2"><animate attributeName="cy" values="145;115;145" dur="3.7s" repeatCount="indefinite"/></circle></g>
+<rect x="1" y="1" width="1198" height="208" rx="24" fill="none" stroke="url(#edge)"/>
 </svg>

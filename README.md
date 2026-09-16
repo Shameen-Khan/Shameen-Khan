@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan purple animated developer universe"/>
+<img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan — animated developer universe with a spiral galaxy, orbital stars and a ringed planet"/>
 
 <p>
   <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
@@ -25,7 +25,7 @@ I like the part of engineering where an idea stops being an idea and becomes som
 
 </div>
 
-<img src="assets/terminal-neon.svg" width="100%" alt="Animated terminal showing Shameen Khan developer profile"/>
+<img src="assets/terminal-neon.svg" width="100%" alt="Mission control — Shameen Khan's developer profile with an animated orbital display"/>
 
 ## ⚡ WHAT DEFINES MY WORK
 
@@ -46,6 +46,8 @@ I like the part of engineering where an idea stops being an idea and becomes som
 </div>
 
 ## 🎯 CURRENTLY EXPLORING
+
+<img src="assets/floating-code.svg" width="100%" alt="Learning constellation: Python, Java, C, AI/ML, Full-Stack and DSA"/>
 
 ```text
 AI / ML                 ███████████████░░░  building stronger fundamentals
@@ -115,8 +117,6 @@ As the repositories grow, this space will evolve with them — real projects, re
 
 <div align="center">
 
-### 💜 Build. Learn. Experiment. Repeat.
-
-<i>One problem. One project. One improvement at a time.</i>
+<img src="assets/galaxy-footer.svg" width="100%" alt="Build. Learn. Experiment. Repeat. One problem. One project. One improvement at a time."/>
 
 </div>

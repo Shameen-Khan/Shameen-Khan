@@ -1,1 +1,59 @@
-<svg width="560" height="190" viewBox="0 0 560 190" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B0314"/><stop offset=".55" stop-color="#21063B"/><stop offset="1" stop-color="#09010F"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="560" height="190" rx="24" fill="url(#b)"/><rect x="1" y="1" width="558" height="188" rx="23" fill="none" stroke="#A855F7" stroke-opacity=".55"/><circle cx="74" cy="95" r="40" fill="#A855F7" opacity=".12"/><circle cx="74" cy="95" r="27" fill="#A855F7" opacity=".2"/><path d="M74 70l7 15 17 2-12 11 3 17-15-8-15 8 3-17-12-11 17-2z" fill="#C084FC" filter="url(#g)"/><text x="128" y="55" fill="#C084FC" font-family="Arial" font-size="13" font-weight="700" letter-spacing="3">CREDENTIAL 03</text><text x="128" y="91" fill="white" font-family="Arial" font-size="24" font-weight="700">Certificate</text><text x="128" y="119" fill="#D8B4FE" font-family="Arial" font-size="14">Click this card to open</text><text x="128" y="145" fill="#E9D5FF" font-family="Arial" font-size="12" font-weight="700" letter-spacing="1">↗ ORIGINAL DRIVE DOCUMENT</text><circle cx="500" cy="36" r="3" fill="#C084FC"><animate attributeName="cy" values="36;26;36" dur="2.8s" repeatCount="indefinite"/></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+<title id="title">Certificate 03 — Shameen Khan</title>
+<desc id="desc">Credential 03. Click the surrounding card link to open the original certificate on Google Drive.</desc>
+<defs>
+<linearGradient id="space" x2="1" y2="1"><stop stop-color="#030711"/><stop offset=".53" stop-color="#100d29"/><stop offset="1" stop-color="#040918"/></linearGradient>
+<radialGradient id="violet"><stop stop-color="#8b4af4" stop-opacity=".45"/><stop offset=".5" stop-color="#50288d" stop-opacity=".18"/><stop offset="1" stop-color="#50288d" stop-opacity="0"/></radialGradient>
+<radialGradient id="blue"><stop stop-color="#35bff5" stop-opacity=".28"/><stop offset="1" stop-color="#1673bf" stop-opacity="0"/></radialGradient>
+<radialGradient id="heart"><stop stop-color="#fffde6"/><stop offset=".12" stop-color="#ffe4cf" stop-opacity=".95"/><stop offset=".3" stop-color="#d8a2ff" stop-opacity=".7"/><stop offset="1" stop-color="#9b68fd" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".3" cy=".23" r=".8"><stop stop-color="#cfb9f5"/><stop offset=".2" stop-color="#7369b4"/><stop offset=".53" stop-color="#343368"/><stop offset=".8" stop-color="#101529"/><stop offset="1" stop-color="#040810"/></radialGradient>
+<linearGradient id="ring"><stop stop-color="#576da5" stop-opacity=".2"/><stop offset=".45" stop-color="#e2b9ff"/><stop offset=".68" stop-color="#99d9f8"/><stop offset="1" stop-color="#68578b" stop-opacity=".2"/></linearGradient>
+<linearGradient id="trail"><stop stop-color="#b1e9ff" stop-opacity="0"/><stop offset="1" stop-color="#e5f8ff"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#9d79ea" stop-opacity=".1"/><stop offset=".45" stop-color="#b4a0ff" stop-opacity=".65"/><stop offset="1" stop-color="#5de0e6" stop-opacity=".15"/></linearGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+<clipPath id="frame"><rect x="1" y="1" width="558" height="188" rx="24"/></clipPath>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace;letter-spacing:2px}
+.turn{animation:spin 70s linear infinite;transform-origin:0px 0px}
+.reverse{animation-direction:reverse;animation-duration:95s}
+.float{animation:float 9s ease-in-out infinite}
+.drift{animation:drift 24s ease-in-out infinite alternate}
+.twinkle{animation:twinkle 5s ease-in-out infinite alternate}
+.pulse{animation:pulse 7s ease-in-out infinite}
+.flow{animation:flow 18s linear infinite}
+.meteor{opacity:0;animation:meteor 13s ease-in-out infinite}
+.cursor{animation:cursor 1.4s steps(2,end) infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes drift{to{transform:translate(28px,-16px)}}
+@keyframes twinkle{from{opacity:.2}to{opacity:.85}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:.95}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes meteor{0%,72%,100%{opacity:0;transform:translate(0,0)}74%{opacity:.85}84%{opacity:0;transform:translate(-290px,150px)}}
+@keyframes cursor{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.meteor{display:none}}
+</style>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="560" height="190" fill="url(#space)"/>
+
+<ellipse cx="62" cy="98" rx="175" ry="155" fill="url(#violet)"/>
+<g fill="#c9d8f5"><circle cx="430.9" cy="156.5" r="1.07" opacity="0.60"/><circle cx="381.9" cy="89.9" r="1.27" opacity="0.25"/><circle cx="488.4" cy="164.7" r="1.47" opacity="0.57"/><circle cx="304.8" cy="16.3" r="1.38" opacity="0.36"/><circle cx="388.1" cy="86.3" r="1.56" opacity="0.40"/><circle cx="259.8" cy="164.2" r="0.63" opacity="0.31"/><circle cx="91.0" cy="160.8" r="1.04" opacity="0.64"/><circle cx="190.5" cy="11.0" r="0.48" opacity="0.62"/><circle cx="101.9" cy="175.8" r="0.57" opacity="0.67"/><circle cx="470.3" cy="160.5" r="0.91" opacity="0.80"/><circle cx="152.3" cy="90.0" r="0.56" opacity="0.38"/><circle cx="476.7" cy="46.4" r="1.46" opacity="0.35"/><circle cx="100.4" cy="186.7" r="0.49" opacity="0.65"/><circle cx="539.0" cy="65.8" r="1.15" opacity="0.27"/><circle cx="455.2" cy="133.9" r="0.59" opacity="0.56"/><circle cx="495.8" cy="189.1" r="1.32" opacity="0.32"/><circle cx="543.6" cy="186.8" r="1.13" opacity="0.53"/><circle cx="534.7" cy="136.2" r="1.51" opacity="0.62"/><circle cx="8.1" cy="50.8" r="1.04" opacity="0.59"/><circle cx="168.5" cy="165.2" r="0.83" opacity="0.68"/><circle cx="481.8" cy="174.4" r="1.13" opacity="0.46"/><circle cx="351.4" cy="92.8" r="1.13" opacity="0.24"/><circle cx="511.5" cy="157.3" r="0.64" opacity="0.44"/><circle cx="252.7" cy="62.7" r="1.19" opacity="0.77"/><circle cx="66.1" cy="150.6" r="1.41" opacity="0.76"/><circle cx="552.2" cy="183.7" r="1.26" opacity="0.60"/><circle cx="484.9" cy="112.5" r="0.49" opacity="0.22"/><circle cx="344.3" cy="72.2" r="0.52" opacity="0.74"/><circle cx="451.2" cy="149.5" r="0.73" opacity="0.79"/><circle cx="471.8" cy="31.9" r="1.10" opacity="0.43"/><circle cx="298.1" cy="131.2" r="0.49" opacity="0.61"/><circle cx="92.0" cy="29.8" r="0.55" opacity="0.70"/></g><g fill="#f0e3ff" class="twinkle"><circle cx="0.2" cy="19.6" r="1.37" opacity="0.66"/><circle cx="135.6" cy="79.0" r="1.26" opacity="0.57"/><circle cx="96.6" cy="107.0" r="1.31" opacity="0.64"/><circle cx="406.7" cy="107.6" r="0.90" opacity="0.68"/><circle cx="156.1" cy="128.2" r="0.88" opacity="0.74"/><circle cx="393.2" cy="146.2" r="1.44" opacity="0.32"/><circle cx="141.3" cy="83.9" r="1.07" opacity="0.47"/><circle cx="530.6" cy="19.0" r="1.30" opacity="0.49"/><circle cx="430.3" cy="28.0" r="1.48" opacity="0.34"/><circle cx="55.1" cy="13.9" r="1.21" opacity="0.51"/><circle cx="214.7" cy="138.2" r="0.48" opacity="0.79"/></g>
+<path d="M164 29H529" stroke="url(#edge)" opacity=".45"/>
+<g transform="translate(82 98)">
+<circle r="40" fill="#0c1225" stroke="#d9b6ee" stroke-opacity=".2"/>
+<circle r="24" fill="url(#planet)"/>
+<g class="turn" style="animation-duration:43s"><ellipse rx="51" ry="51" stroke="#d9b6ee" stroke-opacity=".4" stroke-dasharray="1 7" fill="none"/><circle cx="51" r="3" fill="#d9b6ee" filter="url(#glow)"/></g>
+<path d="M-46 23Q-8 30 46-23" stroke="#d9b6ee" stroke-opacity=".8" fill="none" stroke-width="2"/>
+</g>
+<text x="163" y="61" font-size="11" class="mono" fill="#d9b6ee">CREDENTIAL / 03</text>
+<text x="161" y="96" font-size="27" font-weight="700" fill="#f0f1ff">Certificate 03</text>
+<text x="163" y="124" font-size="13" fill="#aab4ce">A milestone in my learning universe.</text>
+<text x="163" y="158" font-size="10" class="mono" fill="#d9b6ee">OPEN ORIGINAL CERTIFICATE</text>
+<path d="M507 156l12-12m-12 0h12v12" fill="none" stroke="#d9b6ee" stroke-width="1.5"/>
+
+</g>
+<rect x="1" y="1" width="558" height="188" rx="24" fill="none" stroke="url(#edge)"/>
+</svg>

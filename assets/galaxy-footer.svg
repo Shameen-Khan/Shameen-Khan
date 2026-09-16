@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Build. Learn. Experiment. Repeat.</title>
+<desc id="desc">One problem. One project. One improvement at a time. An illuminated planetary horizon under a starfield.</desc>
+<defs>
+<linearGradient id="space" x2="1" y2="1"><stop stop-color="#030711"/><stop offset=".53" stop-color="#100d29"/><stop offset="1" stop-color="#040918"/></linearGradient>
+<radialGradient id="violet"><stop stop-color="#8b4af4" stop-opacity=".45"/><stop offset=".5" stop-color="#50288d" stop-opacity=".18"/><stop offset="1" stop-color="#50288d" stop-opacity="0"/></radialGradient>
+<radialGradient id="blue"><stop stop-color="#35bff5" stop-opacity=".28"/><stop offset="1" stop-color="#1673bf" stop-opacity="0"/></radialGradient>
+<radialGradient id="heart"><stop stop-color="#fffde6"/><stop offset=".12" stop-color="#ffe4cf" stop-opacity=".95"/><stop offset=".3" stop-color="#d8a2ff" stop-opacity=".7"/><stop offset="1" stop-color="#9b68fd" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".3" cy=".23" r=".8"><stop stop-color="#cfb9f5"/><stop offset=".2" stop-color="#7369b4"/><stop offset=".53" stop-color="#343368"/><stop offset=".8" stop-color="#101529"/><stop offset="1" stop-color="#040810"/></radialGradient>
+<linearGradient id="ring"><stop stop-color="#576da5" stop-opacity=".2"/><stop offset=".45" stop-color="#e2b9ff"/><stop offset=".68" stop-color="#99d9f8"/><stop offset="1" stop-color="#68578b" stop-opacity=".2"/></linearGradient>
+<linearGradient id="trail"><stop stop-color="#b1e9ff" stop-opacity="0"/><stop offset="1" stop-color="#e5f8ff"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#9d79ea" stop-opacity=".1"/><stop offset=".45" stop-color="#b4a0ff" stop-opacity=".65"/><stop offset="1" stop-color="#5de0e6" stop-opacity=".15"/></linearGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+<clipPath id="frame"><rect x="1" y="1" width="1198" height="178" rx="24"/></clipPath>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace;letter-spacing:2px}
+.turn{animation:spin 70s linear infinite;transform-origin:0px 0px}
+.reverse{animation-direction:reverse;animation-duration:95s}
+.float{animation:float 9s ease-in-out infinite}
+.drift{animation:drift 24s ease-in-out infinite alternate}
+.twinkle{animation:twinkle 5s ease-in-out infinite alternate}
+.pulse{animation:pulse 7s ease-in-out infinite}
+.flow{animation:flow 18s linear infinite}
+.meteor{opacity:0;animation:meteor 13s ease-in-out infinite}
+.cursor{animation:cursor 1.4s steps(2,end) infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes drift{to{transform:translate(28px,-16px)}}
+@keyframes twinkle{from{opacity:.2}to{opacity:.85}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:.95}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes meteor{0%,72%,100%{opacity:0;transform:translate(0,0)}74%{opacity:.85}84%{opacity:0;transform:translate(-290px,150px)}}
+@keyframes cursor{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.meteor{display:none}}
+</style>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="180" fill="url(#space)"/>
+
+<g fill="#c9d8f5"><circle cx="745.7" cy="93.0" r="1.33" opacity="0.40"/><circle cx="412.5" cy="139.6" r="1.23" opacity="0.54"/><circle cx="572.7" cy="137.8" r="0.77" opacity="0.44"/><circle cx="478.7" cy="169.5" r="0.59" opacity="0.47"/><circle cx="832.0" cy="27.8" r="0.86" opacity="0.40"/><circle cx="335.9" cy="17.1" r="1.40" opacity="0.79"/><circle cx="733.3" cy="92.3" r="0.78" opacity="0.35"/><circle cx="915.7" cy="108.7" r="1.38" opacity="0.38"/><circle cx="145.8" cy="146.7" r="1.06" opacity="0.67"/><circle cx="26.3" cy="178.7" r="1.30" opacity="0.41"/><circle cx="1105.7" cy="146.3" r="1.30" opacity="0.71"/><circle cx="446.7" cy="65.1" r="0.80" opacity="0.52"/><circle cx="985.4" cy="162.0" r="0.52" opacity="0.64"/><circle cx="199.9" cy="19.0" r="0.89" opacity="0.31"/><circle cx="334.1" cy="1.2" r="1.51" opacity="0.58"/><circle cx="551.7" cy="65.4" r="1.48" opacity="0.24"/><circle cx="1148.0" cy="15.4" r="1.20" opacity="0.51"/><circle cx="97.5" cy="11.1" r="0.78" opacity="0.61"/><circle cx="1181.2" cy="78.0" r="1.57" opacity="0.37"/><circle cx="357.1" cy="131.8" r="0.67" opacity="0.59"/><circle cx="907.2" cy="158.1" r="0.94" opacity="0.72"/><circle cx="937.7" cy="3.6" r="0.65" opacity="0.47"/><circle cx="335.1" cy="174.1" r="0.73" opacity="0.30"/><circle cx="180.1" cy="141.4" r="0.49" opacity="0.33"/><circle cx="32.2" cy="91.4" r="1.44" opacity="0.23"/><circle cx="1175.1" cy="144.5" r="1.57" opacity="0.59"/><circle cx="250.4" cy="77.9" r="1.02" opacity="0.71"/><circle cx="204.1" cy="14.6" r="0.59" opacity="0.73"/><circle cx="99.0" cy="176.5" r="1.07" opacity="0.42"/><circle cx="164.4" cy="18.1" r="1.29" opacity="0.36"/><circle cx="324.0" cy="24.1" r="0.59" opacity="0.43"/><circle cx="958.7" cy="148.5" r="1.02" opacity="0.71"/><circle cx="448.7" cy="175.7" r="1.24" opacity="0.35"/><circle cx="1154.3" cy="33.1" r="1.27" opacity="0.53"/><circle cx="158.0" cy="39.6" r="0.87" opacity="0.63"/><circle cx="12.1" cy="156.4" r="1.26" opacity="0.50"/><circle cx="131.3" cy="111.4" r="0.62" opacity="0.79"/><circle cx="142.2" cy="31.8" r="1.57" opacity="0.42"/><circle cx="121.9" cy="26.2" r="1.59" opacity="0.31"/><circle cx="243.7" cy="68.4" r="1.07" opacity="0.37"/><circle cx="69.2" cy="94.1" r="0.84" opacity="0.53"/><circle cx="1059.0" cy="179.8" r="0.53" opacity="0.34"/><circle cx="1157.3" cy="59.5" r="0.76" opacity="0.34"/><circle cx="619.0" cy="24.4" r="0.48" opacity="0.31"/><circle cx="291.1" cy="122.7" r="0.75" opacity="0.32"/><circle cx="255.2" cy="165.9" r="1.52" opacity="0.39"/><circle cx="526.9" cy="55.4" r="0.50" opacity="0.26"/><circle cx="1041.8" cy="33.6" r="1.06" opacity="0.46"/><circle cx="856.4" cy="53.4" r="1.10" opacity="0.53"/><circle cx="144.5" cy="65.8" r="0.57" opacity="0.27"/><circle cx="581.8" cy="19.1" r="0.65" opacity="0.69"/><circle cx="179.1" cy="127.7" r="1.37" opacity="0.55"/><circle cx="620.9" cy="163.0" r="0.85" opacity="0.60"/><circle cx="629.2" cy="104.1" r="1.50" opacity="0.71"/><circle cx="42.0" cy="103.2" r="1.24" opacity="0.30"/><circle cx="663.4" cy="139.9" r="1.23" opacity="0.56"/><circle cx="839.3" cy="42.3" r="1.10" opacity="0.61"/><circle cx="1184.1" cy="71.1" r="0.46" opacity="0.27"/><circle cx="375.5" cy="7.0" r="0.88" opacity="0.36"/><circle cx="532.3" cy="168.3" r="1.40" opacity="0.69"/></g><g fill="#f0e3ff" class="twinkle"><circle cx="0.8" cy="94.1" r="0.97" opacity="0.62"/><circle cx="830.3" cy="110.9" r="1.22" opacity="0.42"/><circle cx="1195.5" cy="143.5" r="1.47" opacity="0.37"/><circle cx="980.2" cy="164.3" r="0.82" opacity="0.35"/><circle cx="1117.6" cy="93.3" r="0.79" opacity="0.37"/><circle cx="270.5" cy="5.3" r="0.76" opacity="0.26"/><circle cx="1159.8" cy="57.8" r="1.08" opacity="0.35"/><circle cx="440.0" cy="46.6" r="1.59" opacity="0.43"/><circle cx="566.0" cy="72.6" r="1.55" opacity="0.32"/><circle cx="797.3" cy="126.2" r="0.85" opacity="0.33"/><circle cx="992.8" cy="20.6" r="0.62" opacity="0.37"/><circle cx="293.5" cy="145.6" r="1.20" opacity="0.47"/><circle cx="37.8" cy="72.9" r="0.99" opacity="0.79"/><circle cx="329.7" cy="22.0" r="0.61" opacity="0.29"/><circle cx="88.5" cy="20.8" r="0.93" opacity="0.55"/><circle cx="624.4" cy="32.0" r="0.91" opacity="0.53"/><circle cx="719.4" cy="80.1" r="0.93" opacity="0.75"/><circle cx="225.9" cy="96.7" r="0.88" opacity="0.64"/><circle cx="97.0" cy="27.1" r="0.76" opacity="0.58"/><circle cx="618.3" cy="154.3" r="0.63" opacity="0.51"/></g>
+<ellipse cx="600" cy="289" rx="610" ry="175" fill="url(#blue)" class="pulse"/>
+<ellipse cx="600" cy="326" rx="675" ry="195" fill="#050a18" stroke="#919dda" stroke-opacity=".5"/>
+<path d="M65 169Q600 43 1135 169" fill="none" stroke="#ae93ec" stroke-opacity=".3" filter="url(#glow)"/>
+<text x="600" y="73" text-anchor="middle" font-size="30" fill="#f0edff" font-weight="700">Build. Learn. Experiment. Repeat.</text>
+<text x="600" y="108" text-anchor="middle" font-size="15" fill="#adb9d5">One problem. One project. One improvement at a time.</text>
+<g transform="translate(90 59)" fill="none" stroke="#e1e9ff" stroke-linecap="round" class="pulse"><path d="M-6 0H6M0-6V6" opacity=".8"/><circle r="1.4" fill="#fff" stroke="none"/></g><g transform="translate(1116 83)" fill="none" stroke="#e1e9ff" stroke-linecap="round" class="pulse"><path d="M-6 0H6M0-6V6" opacity=".8"/><circle r="1.4" fill="#fff" stroke="none"/></g>
+
+</g>
+<rect x="1" y="1" width="1198" height="178" rx="24" fill="none" stroke="url(#edge)"/>
+</svg>
