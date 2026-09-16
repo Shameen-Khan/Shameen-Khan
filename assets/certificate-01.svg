@@ -1,59 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
-<title id="title">Certificate 01 — Shameen Khan</title>
-<desc id="desc">Credential 01. Click the surrounding card link to open the original certificate on Google Drive.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="210" viewBox="0 0 560 210" role="img" aria-labelledby="title desc">
+<title id="title">Certificate 01 — learning archive</title>
+<desc id="desc">Certificate 01. Open the surrounding card link to view the original Google Drive document.</desc>
 <defs>
-<linearGradient id="space" x2="1" y2="1"><stop stop-color="#030711"/><stop offset=".53" stop-color="#100d29"/><stop offset="1" stop-color="#040918"/></linearGradient>
-<radialGradient id="violet"><stop stop-color="#8b4af4" stop-opacity=".45"/><stop offset=".5" stop-color="#50288d" stop-opacity=".18"/><stop offset="1" stop-color="#50288d" stop-opacity="0"/></radialGradient>
-<radialGradient id="blue"><stop stop-color="#35bff5" stop-opacity=".28"/><stop offset="1" stop-color="#1673bf" stop-opacity="0"/></radialGradient>
-<radialGradient id="heart"><stop stop-color="#fffde6"/><stop offset=".12" stop-color="#ffe4cf" stop-opacity=".95"/><stop offset=".3" stop-color="#d8a2ff" stop-opacity=".7"/><stop offset="1" stop-color="#9b68fd" stop-opacity="0"/></radialGradient>
-<radialGradient id="planet" cx=".3" cy=".23" r=".8"><stop stop-color="#cfb9f5"/><stop offset=".2" stop-color="#7369b4"/><stop offset=".53" stop-color="#343368"/><stop offset=".8" stop-color="#101529"/><stop offset="1" stop-color="#040810"/></radialGradient>
-<linearGradient id="ring"><stop stop-color="#576da5" stop-opacity=".2"/><stop offset=".45" stop-color="#e2b9ff"/><stop offset=".68" stop-color="#99d9f8"/><stop offset="1" stop-color="#68578b" stop-opacity=".2"/></linearGradient>
-<linearGradient id="trail"><stop stop-color="#b1e9ff" stop-opacity="0"/><stop offset="1" stop-color="#e5f8ff"/></linearGradient>
-<linearGradient id="edge"><stop stop-color="#9d79ea" stop-opacity=".1"/><stop offset=".45" stop-color="#b4a0ff" stop-opacity=".65"/><stop offset="1" stop-color="#5de0e6" stop-opacity=".15"/></linearGradient>
+<linearGradient id="space" x2="1" y2="1"><stop stop-color="#050710"/><stop offset=".52" stop-color="#100f22"/><stop offset="1" stop-color="#080c19"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fffdf6"/><stop offset=".48" stop-color="#ebe8ff"/><stop offset="1" stop-color="#a3aed3"/></linearGradient>
+<linearGradient id="spectrum" x2="1" y2=".6"><stop stop-color="#c0c9ff"/><stop offset=".42" stop-color="#c099ff"/><stop offset=".76" stop-color="#ecbaff"/><stop offset="1" stop-color="#ffd5ad"/></linearGradient>
+<linearGradient id="edge"><stop stop-color="#6d709c" stop-opacity=".25"/><stop offset=".48" stop-color="#d2b9ff" stop-opacity=".7"/><stop offset="1" stop-color="#76baca" stop-opacity=".2"/></linearGradient>
+<linearGradient id="tail"><stop stop-color="#d6bdff" stop-opacity="0"/><stop offset="1" stop-color="#f0e5ff"/></linearGradient>
+<radialGradient id="violet"><stop stop-color="#9864eb" stop-opacity=".6"/><stop offset=".45" stop-color="#663e9c" stop-opacity=".24"/><stop offset="1" stop-color="#663e9c" stop-opacity="0"/></radialGradient>
+<radialGradient id="cyan"><stop stop-color="#4da9c5" stop-opacity=".32"/><stop offset="1" stop-color="#225479" stop-opacity="0"/></radialGradient>
+<radialGradient id="amber"><stop stop-color="#fac0a4" stop-opacity=".55"/><stop offset="1" stop-color="#cf839d" stop-opacity="0"/></radialGradient>
+<radialGradient id="core"><stop stop-color="#fffef1"/><stop offset=".1" stop-color="#f4d3ff" stop-opacity=".95"/><stop offset=".36" stop-color="#b79bff" stop-opacity=".45"/><stop offset="1" stop-color="#b79bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".23" cy=".13" r=".88"><stop stop-color="#a8a5d6"/><stop offset=".25" stop-color="#5e5489"/><stop offset=".62" stop-color="#22263e"/><stop offset="1" stop-color="#040810"/></radialGradient>
+<radialGradient id="eclipse" cx=".27" cy=".16" r=".9"><stop stop-color="#323148"/><stop offset=".45" stop-color="#141726"/><stop offset="1" stop-color="#050711"/></radialGradient>
+<filter id="bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
 <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
-<clipPath id="frame"><rect x="1" y="1" width="558" height="188" rx="24"/></clipPath>
+<clipPath id="frame"><rect x="1" y="1" width="558" height="208" rx="26"/></clipPath>
+
 <style>
 text{font-family:Arial,Helvetica,sans-serif}
-.mono{font-family:'Courier New',monospace;letter-spacing:2px}
-.turn{animation:spin 70s linear infinite;transform-origin:0px 0px}
-.reverse{animation-direction:reverse;animation-duration:95s}
-.float{animation:float 9s ease-in-out infinite}
-.drift{animation:drift 24s ease-in-out infinite alternate}
+.mono{font-family:'Courier New',monospace;letter-spacing:1.8px}
+.spin{transform-origin:0px 0px;animation:spin 64s linear infinite}
+.counter{animation-direction:reverse;animation-duration:86s}
+.float{animation:float 8s ease-in-out infinite}
+.nebula{animation:drift 22s ease-in-out infinite alternate}
+.breathe{animation:breathe 6s ease-in-out infinite alternate}
 .twinkle{animation:twinkle 5s ease-in-out infinite alternate}
-.pulse{animation:pulse 7s ease-in-out infinite}
-.flow{animation:flow 18s linear infinite}
-.meteor{opacity:0;animation:meteor 13s ease-in-out infinite}
-.cursor{animation:cursor 1.4s steps(2,end) infinite}
+.signal{animation:signal 14s linear infinite}
+.trace{animation:trace 12s linear infinite}
+.shooting{opacity:0;animation:shoot 11s ease-in-out infinite}
+.cursor{animation:cursor 1.5s steps(2,end) infinite}
+.arrive{animation:arrive 1.2s cubic-bezier(.16,1,.3,1) both}
 @keyframes spin{to{transform:rotate(360deg)}}
-@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-@keyframes drift{to{transform:translate(28px,-16px)}}
-@keyframes twinkle{from{opacity:.2}to{opacity:.85}}
-@keyframes pulse{0%,100%{opacity:.55}50%{opacity:.95}}
-@keyframes flow{to{stroke-dashoffset:-240}}
-@keyframes meteor{0%,72%,100%{opacity:0;transform:translate(0,0)}74%{opacity:.85}84%{opacity:0;transform:translate(-290px,150px)}}
+@keyframes float{50%{transform:translateY(-9px)}}
+@keyframes drift{to{transform:translate(24px,-14px)}}
+@keyframes breathe{from{opacity:.55}to{opacity:.95}}
+@keyframes twinkle{from{opacity:.25}to{opacity:.85}}
+@keyframes signal{to{stroke-dashoffset:-360}}
+@keyframes trace{to{stroke-dashoffset:-1600}}
+@keyframes shoot{0%,68%,100%{opacity:0;transform:translate(0,0)}70%{opacity:.9}82%{opacity:0;transform:translate(-380px,150px)}}
 @keyframes cursor{50%{opacity:0}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important}.meteor{display:none}}
+@keyframes arrive{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.shooting{display:none}}
 </style>
 </defs>
-<g clip-path="url(#frame)">
-<rect width="560" height="190" fill="url(#space)"/>
+<g clip-path="url(#frame)"><rect width="560" height="210" fill="url(#space)"/>
 
-<ellipse cx="62" cy="98" rx="175" ry="155" fill="url(#violet)"/>
-<g fill="#c9d8f5"><circle cx="394.2" cy="73.3" r="0.96" opacity="0.39"/><circle cx="181.1" cy="114.8" r="1.53" opacity="0.23"/><circle cx="117.7" cy="151.6" r="1.35" opacity="0.54"/><circle cx="397.2" cy="135.3" r="1.17" opacity="0.44"/><circle cx="0.4" cy="76.1" r="1.35" opacity="0.22"/><circle cx="353.9" cy="87.8" r="0.84" opacity="0.59"/><circle cx="502.4" cy="63.3" r="1.06" opacity="0.80"/><circle cx="473.8" cy="17.6" r="1.12" opacity="0.32"/><circle cx="492.2" cy="148.1" r="1.42" opacity="0.22"/><circle cx="204.0" cy="56.1" r="1.23" opacity="0.60"/><circle cx="167.4" cy="128.8" r="0.77" opacity="0.31"/><circle cx="23.5" cy="44.7" r="1.42" opacity="0.56"/><circle cx="158.9" cy="158.6" r="0.49" opacity="0.79"/><circle cx="228.6" cy="98.5" r="1.08" opacity="0.31"/><circle cx="521.3" cy="114.8" r="1.14" opacity="0.25"/><circle cx="83.4" cy="139.9" r="0.78" opacity="0.64"/><circle cx="544.2" cy="39.1" r="0.60" opacity="0.76"/><circle cx="141.6" cy="131.1" r="1.30" opacity="0.79"/><circle cx="526.3" cy="63.0" r="1.53" opacity="0.38"/><circle cx="556.3" cy="137.9" r="1.28" opacity="0.64"/><circle cx="443.2" cy="175.0" r="1.23" opacity="0.75"/><circle cx="172.4" cy="12.0" r="0.64" opacity="0.67"/><circle cx="409.6" cy="52.9" r="0.63" opacity="0.54"/><circle cx="222.6" cy="173.0" r="1.34" opacity="0.50"/><circle cx="457.8" cy="81.7" r="0.52" opacity="0.31"/><circle cx="552.5" cy="127.6" r="1.06" opacity="0.78"/><circle cx="384.0" cy="129.4" r="1.51" opacity="0.63"/><circle cx="61.9" cy="76.5" r="0.60" opacity="0.79"/><circle cx="310.0" cy="73.6" r="1.14" opacity="0.64"/><circle cx="329.9" cy="164.4" r="0.82" opacity="0.66"/><circle cx="266.3" cy="168.5" r="0.65" opacity="0.44"/><circle cx="150.8" cy="63.9" r="1.40" opacity="0.25"/></g><g fill="#f0e3ff" class="twinkle"><circle cx="0.2" cy="159.6" r="0.79" opacity="0.71"/><circle cx="503.9" cy="76.1" r="1.53" opacity="0.50"/><circle cx="362.6" cy="88.9" r="0.77" opacity="0.26"/><circle cx="101.3" cy="131.7" r="1.44" opacity="0.71"/><circle cx="171.0" cy="130.5" r="1.42" opacity="0.64"/><circle cx="26.0" cy="98.6" r="1.40" opacity="0.68"/><circle cx="239.8" cy="144.1" r="0.46" opacity="0.57"/><circle cx="469.5" cy="60.5" r="1.02" opacity="0.68"/><circle cx="227.7" cy="97.3" r="0.59" opacity="0.75"/><circle cx="73.8" cy="48.6" r="0.88" opacity="0.44"/><circle cx="497.2" cy="147.1" r="0.73" opacity="0.55"/></g>
-<path d="M164 29H529" stroke="url(#edge)" opacity=".45"/>
-<g transform="translate(82 98)">
-<circle r="40" fill="#0c1225" stroke="#c6a2ff" stroke-opacity=".2"/>
-<circle r="24" fill="url(#planet)"/>
-<g class="turn" style="animation-duration:33s"><ellipse rx="51" ry="51" stroke="#c6a2ff" stroke-opacity=".4" stroke-dasharray="1 7" fill="none"/><circle cx="51" r="3" fill="#c6a2ff" filter="url(#glow)"/></g>
-<path d="M-46 23Q-8 30 46-23" stroke="#c6a2ff" stroke-opacity=".8" fill="none" stroke-width="2"/>
+<ellipse cx="82" cy="116" rx="175" ry="180" fill="url(#violet)" opacity=".65"/>
+<g fill="#b8c3e4"><circle cx="375.2" cy="109.9" r="0.58" opacity="0.17"/><circle cx="45.5" cy="144.0" r="1.30" opacity="0.27"/><circle cx="38.1" cy="183.1" r="1.34" opacity="0.38"/><circle cx="94.5" cy="181.1" r="1.29" opacity="0.49"/><circle cx="431.6" cy="3.4" r="0.62" opacity="0.32"/><circle cx="331.5" cy="112.0" r="1.30" opacity="0.41"/><circle cx="221.1" cy="66.4" r="0.76" opacity="0.68"/><circle cx="479.1" cy="150.8" r="1.35" opacity="0.79"/><circle cx="543.2" cy="29.6" r="1.08" opacity="0.21"/><circle cx="304.4" cy="184.4" r="1.19" opacity="0.50"/><circle cx="353.2" cy="165.8" r="0.55" opacity="0.60"/><circle cx="274.4" cy="112.9" r="1.17" opacity="0.70"/><circle cx="282.2" cy="68.3" r="1.15" opacity="0.26"/><circle cx="83.8" cy="54.6" r="0.38" opacity="0.17"/><circle cx="18.6" cy="73.0" r="0.65" opacity="0.16"/><circle cx="218.3" cy="128.0" r="0.60" opacity="0.33"/><circle cx="136.5" cy="106.9" r="0.78" opacity="0.32"/><circle cx="526.0" cy="109.2" r="0.42" opacity="0.37"/><circle cx="175.7" cy="102.2" r="0.51" opacity="0.67"/><circle cx="85.7" cy="52.3" r="0.47" opacity="0.52"/><circle cx="121.3" cy="5.3" r="1.21" opacity="0.64"/><circle cx="480.7" cy="174.3" r="0.30" opacity="0.72"/><circle cx="63.5" cy="160.1" r="1.33" opacity="0.37"/><circle cx="500.6" cy="173.9" r="0.35" opacity="0.58"/><circle cx="5.7" cy="105.0" r="0.35" opacity="0.76"/><circle cx="145.8" cy="118.5" r="0.66" opacity="0.17"/><circle cx="469.0" cy="65.3" r="0.52" opacity="0.45"/><circle cx="543.8" cy="110.0" r="1.10" opacity="0.64"/><circle cx="72.9" cy="164.2" r="1.23" opacity="0.34"/><circle cx="133.4" cy="149.9" r="1.32" opacity="0.60"/><circle cx="64.7" cy="78.3" r="1.09" opacity="0.48"/><circle cx="107.4" cy="197.5" r="0.95" opacity="0.81"/><circle cx="99.7" cy="207.4" r="1.11" opacity="0.78"/><circle cx="66.4" cy="200.6" r="1.03" opacity="0.28"/><circle cx="181.1" cy="34.9" r="1.31" opacity="0.79"/><circle cx="191.8" cy="27.8" r="1.05" opacity="0.85"/><circle cx="551.2" cy="22.6" r="0.42" opacity="0.71"/><circle cx="7.9" cy="87.4" r="1.12" opacity="0.62"/><circle cx="136.7" cy="119.0" r="0.99" opacity="0.69"/><circle cx="309.8" cy="182.0" r="0.52" opacity="0.41"/><circle cx="191.6" cy="84.7" r="0.50" opacity="0.58"/></g><g class="twinkle" fill="#ffdbdd"><circle cx="0.5" cy="153.8" r="0.96" opacity="0.41"/><circle cx="424.7" cy="192.9" r="1.31" opacity="0.30"/><circle cx="374.3" cy="9.6" r="1.28" opacity="0.41"/><circle cx="179.8" cy="106.4" r="1.17" opacity="0.66"/><circle cx="400.7" cy="8.6" r="1.12" opacity="0.22"/><circle cx="99.7" cy="85.4" r="0.48" opacity="0.83"/><circle cx="106.9" cy="158.3" r="0.65" opacity="0.43"/><circle cx="51.6" cy="1.2" r="0.60" opacity="0.57"/><circle cx="424.6" cy="75.7" r="0.93" opacity="0.68"/><circle cx="82.2" cy="138.1" r="0.93" opacity="0.39"/><circle cx="92.9" cy="135.9" r="0.89" opacity="0.78"/></g>
+<path d="M150 29H530M150 180H530" stroke="#cfb2f6" stroke-opacity=".2"/>
+<text x="161" y="53" font-size="10" class="mono" fill="#cfb2f6">LEARNING ARCHIVE / 01</text>
+<text x="158" y="99" font-size="29" fill="#f0edf8" font-weight="700">Certificate 01</text>
+<text x="161" y="126" font-size="13" fill="#afb6cb">A milestone in my learning universe.</text>
+<text x="161" y="162" font-size="10" class="mono" fill="#cfb2f6">OPEN ORIGINAL DOCUMENT</text>
+<path d="M508 161l13-13m-13 0h13v13" stroke="#cfb2f6" fill="none" stroke-width="1.4"/>
+<g transform="translate(77 106)">
+<circle r="50" fill="#090e1b" fill-opacity=".8" stroke="#cfb2f6" stroke-opacity=".14"/>
+<g class="spin" style="animation-duration:37s"><path d="M55.0 0.0L65.0 0.0 M53.8 11.4L57.7 12.3 M50.2 22.4L53.9 24.0 M44.5 32.3L47.7 34.7 M36.8 40.9L39.5 43.8 M27.5 47.6L32.5 56.3 M17.0 52.3L18.2 56.1 M5.7 54.7L6.2 58.7 M-5.7 54.7L-6.2 58.7 M-17.0 52.3L-18.2 56.1 M-27.5 47.6L-32.5 56.3 M-36.8 40.9L-39.5 43.8 M-44.5 32.3L-47.7 34.7 M-50.2 22.4L-53.9 24.0 M-53.8 11.4L-57.7 12.3 M-55.0 0.0L-65.0 0.0 M-53.8 -11.4L-57.7 -12.3 M-50.2 -22.4L-53.9 -24.0 M-44.5 -32.3L-47.7 -34.7 M-36.8 -40.9L-39.5 -43.8 M-27.5 -47.6L-32.5 -56.3 M-17.0 -52.3L-18.2 -56.1 M-5.7 -54.7L-6.2 -58.7 M5.7 -54.7L6.2 -58.7 M17.0 -52.3L18.2 -56.1 M27.5 -47.6L32.5 -56.3 M36.8 -40.9L39.5 -43.8 M44.5 -32.3L47.7 -34.7 M50.2 -22.4L53.9 -24.0 M53.8 -11.4L57.7 -12.3" fill="none" stroke="#cfb2f6" stroke-opacity=".4"/><circle cx="55" r="2.5" fill="#cfb2f6" filter="url(#glow)"/></g>
+<g class="float" style="animation-delay:-1s"><path d="M0-30C4-8 9-4 30 0C9 4 4 8 0 30C-4 8-9 4-30 0C-9-4-4-8 0-30Z" fill="url(#spectrum)"/><circle r="8" fill="#f2e5ff"/></g>
 </g>
-<text x="163" y="61" font-size="11" class="mono" fill="#c6a2ff">CREDENTIAL / 01</text>
-<text x="161" y="96" font-size="27" font-weight="700" fill="#f0f1ff">Certificate 01</text>
-<text x="163" y="124" font-size="13" fill="#aab4ce">A milestone in my learning universe.</text>
-<text x="163" y="158" font-size="10" class="mono" fill="#c6a2ff">OPEN ORIGINAL CERTIFICATE</text>
-<path d="M507 156l12-12m-12 0h12v12" fill="none" stroke="#c6a2ff" stroke-width="1.5"/>
+<path d="M18 39V18H39M521 192H542V171" fill="none" stroke="#cfb2f6" stroke-opacity=".5"/>
+<rect x="4" y="4" width="552" height="202" rx="23" stroke="#cfb2f6" stroke-opacity=".38" fill="none" stroke-dasharray="45 1555" class="trace" style="animation-delay:-2s"/>
 
-</g>
-<rect x="1" y="1" width="558" height="188" rx="24" fill="none" stroke="url(#edge)"/>
+</g><rect x="1" y="1" width="558" height="208" rx="26" fill="none" stroke="url(#edge)"/>
 </svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan — animated developer universe with a spiral galaxy, orbital stars and a ringed planet"/>
+<img src="assets/purple-universe.svg" width="100%" alt="Shameen Khan — cosmic observatory with a luminous eclipse, orbital stardust and an animated satellite"/>
 
 <p>
   <a href="https://github.com/Shameen-Khan"><img src="https://img.shields.io/badge/GitHub-0B0712?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub"/></a>
@@ -25,7 +25,7 @@ I like the part of engineering where an idea stops being an idea and becomes som
 
 </div>
 
-<img src="assets/terminal-neon.svg" width="100%" alt="Mission control — Shameen Khan's developer profile with an animated orbital display"/>
+<img src="assets/terminal-neon.svg" width="100%" alt="Deep-space uplink — Shameen Khan's developer profile with a rotating wireframe display"/>
 
 ## ⚡ WHAT DEFINES MY WORK
 
