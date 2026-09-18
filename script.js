@@ -44,11 +44,48 @@ function makeShuttle() {
   group.scale.setScalar(.72); group.rotation.y = -.15; return group;
 }
 
+function makeSatellite() {
+  const group = new THREE.Group();
+  const metal = new THREE.MeshStandardMaterial({ color: "#b9c4d9", metalness: .9, roughness: .2 });
+  const darkMetal = new THREE.MeshStandardMaterial({ color: "#283551", metalness: .75, roughness: .28 });
+  const body = new THREE.Mesh(new THREE.CylinderGeometry(.13, .18, .42, 12), metal);
+  body.rotation.z = Math.PI / 2; group.add(body);
+  const dish = new THREE.Mesh(new THREE.SphereGeometry(.28, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: "#dfe9ff", metalness: .5, roughness: .2, side: THREE.DoubleSide }));
+  dish.position.set(.08, .27, 0); dish.rotation.x = Math.PI; group.add(dish);
+  const arm = new THREE.Mesh(new THREE.CylinderGeometry(.025, .025, .65, 8), darkMetal);
+  arm.rotation.z = Math.PI / 2; arm.position.x = -.28; group.add(arm);
+  [-1, 1].forEach((side) => {
+    const panel = new THREE.Mesh(new THREE.BoxGeometry(.32, .02, .2), new THREE.MeshStandardMaterial({ color: "#17284c", emissive: "#102d55", emissiveIntensity: .7, metalness: .7, roughness: .3 }));
+    panel.position.set(-.28, 0, side * .23); panel.rotation.y = side * .08; group.add(panel);
+  });
+  const beacon = new THREE.Mesh(new THREE.SphereGeometry(.045, 10, 10), new THREE.MeshBasicMaterial({ color: "#f05c78" }));
+  beacon.position.set(.28, .02, 0); group.add(beacon);
+  group.scale.setScalar(.8); return group;
+}
+
+function makePlanetWorld() {
+  const world = new THREE.Group();
+  const planet = new THREE.Mesh(new THREE.SphereGeometry(3.7, 64, 40), new THREE.MeshStandardMaterial({ color: "#171d3e", emissive: "#0f1645", emissiveIntensity: 1.25, roughness: .98, metalness: .02 }));
+  planet.position.set(3.8, -2.8, -4); world.add(planet);
+  const atmosphere = new THREE.Mesh(new THREE.SphereGeometry(3.84, 64, 40), new THREE.MeshBasicMaterial({ color: "#6d7cff", transparent: true, opacity: .18, side: THREE.BackSide, blending: THREE.AdditiveBlending }));
+  atmosphere.position.copy(planet.position); world.add(atmosphere);
+  const rim = new THREE.Mesh(new THREE.TorusGeometry(3.82, .018, 8, 128), new THREE.MeshBasicMaterial({ color: "#9b7bff", transparent: true, opacity: .58 }));
+  rim.position.set(3.8, -2.8, -4); rim.rotation.set(.15, .26, .18); world.add(rim);
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(4.65, .015, 8, 160), new THREE.MeshBasicMaterial({ color: "#62dce7", transparent: true, opacity: .22 }));
+  ring.position.copy(planet.position); ring.rotation.set(1.02, .22, -.16); world.add(ring);
+  const stationOrbit = new THREE.Group(); stationOrbit.position.copy(planet.position);
+  const station = new THREE.Mesh(new THREE.IcosahedronGeometry(.18, 1), new THREE.MeshStandardMaterial({ color: "#e9e8ff", emissive: "#9b7bff", emissiveIntensity: 1.2, metalness: .6, roughness: .2 }));
+  station.position.set(-4.8, .2, 0); stationOrbit.add(station); world.add(stationOrbit);
+  const nebula = new THREE.Mesh(new THREE.SphereGeometry(8, 24, 16), new THREE.MeshBasicMaterial({ color: "#3a226f", transparent: true, opacity: .08, side: THREE.BackSide, blending: THREE.AdditiveBlending }));
+  nebula.position.set(-4, 2.5, -9); world.add(nebula);
+  return { world, planet, atmosphere, stationOrbit };
+}
+
 function tweenCamera(targetName) {
   if (!camera || state.reduced) { if (camera) camera.position.copy(destinations[targetName]); state.travelling = false; return; }
-  const from = camera.position.clone(); const target = destinations[targetName].clone(); const start = performance.now(); const duration = 1250; const token = ++travelToken;
+  const from = camera.position.clone(); const target = destinations[targetName].clone(); const control = from.clone().lerp(target, .5); control.x += (target.y - from.y) * .42; control.y += (from.x - target.x) * .18; const start = performance.now(); const duration = 1250; const token = ++travelToken; const startFov = camera.fov; const targetFov = targetName === "contact" ? 48 : 55;
   state.travelling = true; sceneStatus.textContent = "HYPERSPACE / NAVIGATING"; trailField.material.opacity = .72;
-  const travel = (now) => { if (token !== travelToken) return; const progress = Math.min((now - start) / duration, 1); const eased = progress < .5 ? 4 * progress ** 3 : 1 - ((-2 * progress + 2) ** 3) / 2; camera.position.lerpVectors(from, target, eased); camera.rotation.z = Math.sin(progress * Math.PI) * -.06; trailField.material.size = .026 + Math.sin(progress * Math.PI) * .08; if (progress < 1) requestAnimationFrame(travel); else { state.travelling = false; trailField.material.opacity = 0; sceneStatus.textContent = "ORBITAL LINK / STABLE"; } };
+  const travel = (now) => { if (token !== travelToken) return; const progress = Math.min((now - start) / duration, 1); const eased = progress < .5 ? 4 * progress ** 3 : 1 - ((-2 * progress + 2) ** 3) / 2; const curve = new THREE.QuadraticBezierCurve3(from, control, target); camera.position.copy(curve.getPoint(eased)); camera.rotation.z = Math.sin(progress * Math.PI) * -.075; camera.fov = startFov + (targetFov - startFov) * eased; camera.updateProjectionMatrix(); trailField.material.size = .026 + Math.sin(progress * Math.PI) * .08; if (progress < 1) requestAnimationFrame(travel); else { state.travelling = false; trailField.material.opacity = 0; sceneStatus.textContent = "ORBITAL LINK / STABLE"; } };
   requestAnimationFrame(travel);
 }
 
@@ -60,21 +97,20 @@ function initScene() {
     scene.add(new THREE.AmbientLight("#798bb8", .42)); const key = new THREE.PointLight("#9b7bff", 4, 15); key.position.set(2, 3, 4); scene.add(key);
     starField = makeStars(window.innerWidth < 720 ? 520 : 1050); trailField = makeStars(window.innerWidth < 720 ? 180 : 360, true); scene.add(starField.points, trailField.points);
     destinationGroup = new THREE.Group(); scene.add(destinationGroup);
-    const planet = new THREE.Mesh(new THREE.SphereGeometry(1.05, 32, 24), new THREE.MeshStandardMaterial({ color: "#271e57", emissive: "#161d4d", emissiveIntensity: 1.1, roughness: .82 }));
-    planet.position.set(0, 0, -1); destinationGroup.add(planet);
-    const ring = new THREE.Mesh(new THREE.TorusGeometry(1.65, .012, 8, 96), new THREE.MeshBasicMaterial({ color: "#9b7bff", transparent: true, opacity: .55 })); ring.rotation.set(.8, .2, -.2); ring.position.copy(planet.position); destinationGroup.add(ring);
+    const world = makePlanetWorld(); destinationGroup.add(world.world);
     shuttle = makeShuttle(); shuttle.position.set(-1.3, .4, 1.2); destinationGroup.add(shuttle);
+    const satellite = makeSatellite(); satellite.position.set(2.7, .45, 1.4); satellite.rotation.z = -.18; destinationGroup.add(satellite); destinationGroup.userData.satellite = satellite; destinationGroup.userData.stationOrbit = world.stationOrbit;
     window.addEventListener("resize", resize); document.addEventListener("visibilitychange", () => { if (document.hidden) cancelAnimationFrame(animationFrame); else { lastTime = 0; animationFrame = requestAnimationFrame(render); } });
     return true;
   } catch (error) { return false; }
 }
 
 function resize() { if (!renderer || !camera) return; camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.6)); renderer.setSize(window.innerWidth, window.innerHeight, false); }
-function render(time) { if (!renderer || document.hidden) return; const delta = Math.min((time - lastTime) / 1000 || .016, .05); lastTime = time; if (!state.reduced) { starField.points.rotation.y += delta * .006; destinationGroup.rotation.y += delta * .035; shuttle.position.y = .4 + Math.sin(time * .0012) * .05; camera.position.x += (state.pointerX * .18 - camera.position.x + destinations[state.destination].x) * delta * .7; camera.position.y += (state.pointerY * .12 - camera.position.y + destinations[state.destination].y) * delta * .7; } renderer.render(scene, camera); animationFrame = requestAnimationFrame(render); }
+function render(time) { if (!renderer || document.hidden) return; const delta = Math.min((time - lastTime) / 1000 || .016, .05); lastTime = time; if (!state.reduced) { starField.points.rotation.y += delta * .006; destinationGroup.rotation.y += delta * .018; shuttle.position.y = .4 + Math.sin(time * .0012) * .05; destinationGroup.userData.satellite.position.y = .45 + Math.sin(time * .0008) * .16; destinationGroup.userData.satellite.rotation.y = time * .00035; destinationGroup.userData.stationOrbit.rotation.y = time * .0005; } renderer.render(scene, camera); animationFrame = requestAnimationFrame(render); }
 
 function setDestination(name, { updateHash = true, focus = true } = {}) {
   if (!destinations[name]) name = "home"; state.destination = name;
-  sections.forEach((section) => { const active = section.id === name; section.classList.toggle("is-active", active); section.setAttribute("aria-hidden", String(!active)); });
+  sections.forEach((section) => { const active = section.id === name; if (!active && section.classList.contains("is-active")) { section.classList.add("is-leaving"); window.setTimeout(() => section.classList.remove("is-leaving"), 520); } section.classList.toggle("is-active", active); section.setAttribute("aria-hidden", String(!active)); });
   links.forEach((link) => link.classList.toggle("is-current", link.dataset.destination === name)); document.querySelector("#location-label").textContent = `${name.toUpperCase()} / ${Object.keys(destinations).indexOf(name) + 1}`; if (updateHash && window.location.hash !== `#${name}`) history.pushState({ destination: name }, "", `#${name}`); tweenCamera(name);
   menu.classList.remove("is-open"); menuButton.setAttribute("aria-expanded", "false"); if (focus) document.querySelector(`#${name} h1, #${name} h2`)?.focus({ preventScroll: true });
 }
