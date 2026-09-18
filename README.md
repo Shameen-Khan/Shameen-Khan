@@ -19,6 +19,8 @@
 
 The repository also contains a self-contained single-page portfolio in `index.html`, with responsive styling in `styles.css` and the persistent interactive Three.js universe in `script.js`. It is a vanilla HTML/CSS/ES module app (no build system).
 
+The scene includes original local nebula artwork in `assets/nebula-carina.svg`, `assets/nebula-pillars.svg`, and `assets/nebula-ring.svg`. These are layered as transparent Three.js textures at different depths alongside the procedural planet, shuttle, satellite, particles, and camera travel. Their amber/copper, cyan, and deep-blue palette is an original interpretation of the supplied Webb nebula descriptions, not a NASA image reproduction.
+
 ### Preview locally
 
 No build step is required. Open `index.html` directly in a browser, or serve the repository folder with any static server:

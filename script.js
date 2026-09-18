@@ -14,7 +14,7 @@ const destinations = {
   home: new THREE.Vector3(0, 0, 7.5), about: new THREE.Vector3(3.4, .5, 5.5), skills: new THREE.Vector3(-3.1, 1.1, 5.8),
   projects: new THREE.Vector3(2.3, -1.3, 4.8), writing: new THREE.Vector3(-2.8, -1.3, 4.9), achievements: new THREE.Vector3(3.2, 1.6, 4.7), contact: new THREE.Vector3(0, -2.5, 5.6),
 };
-let renderer; let scene; let camera; let starField; let trailField; let shuttle; let destinationGroup; let animationFrame; let lastTime = 0; let travelToken = 0;
+let renderer; let scene; let camera; let starField; let trailField; let shuttle; let destinationGroup; let nebulaLayers; let animationFrame; let lastTime = 0; let travelToken = 0;
 
 function makeStars(count, trail = false) {
   const geometry = new THREE.BufferGeometry();
@@ -81,6 +81,24 @@ function makePlanetWorld() {
   return { world, planet, atmosphere, stationOrbit };
 }
 
+function makeNebulaLayers() {
+  const group = new THREE.Group();
+  const loader = new THREE.TextureLoader();
+  const layers = [
+    { url: "assets/nebula-carina.svg", position: [-5.5, 1.8, -7], scale: [11, 7.4], opacity: .72 },
+    { url: "assets/nebula-pillars.svg", position: [3.2, -.8, -3.4], scale: [5.8, 6.5], opacity: .62 },
+    { url: "assets/nebula-ring.svg", position: [1.4, -2.1, -8.5], scale: [8.2, 5.8], opacity: .55 },
+  ];
+  layers.forEach(({ url, position, scale, opacity }) => {
+    const texture = loader.load(url);
+    texture.colorSpace = THREE.SRGBColorSpace;
+    const material = new THREE.MeshBasicMaterial({ map: texture, transparent: true, opacity, depthWrite: false, blending: THREE.AdditiveBlending });
+    const plane = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), material);
+    plane.position.set(...position); plane.scale.set(...scale); group.add(plane);
+  });
+  return group;
+}
+
 function tweenCamera(targetName) {
   if (!camera || state.reduced) { if (camera) camera.position.copy(destinations[targetName]); state.travelling = false; return; }
   const from = camera.position.clone(); const target = destinations[targetName].clone(); const control = from.clone().lerp(target, .5); control.x += (target.y - from.y) * .42; control.y += (from.x - target.x) * .18; const start = performance.now(); const duration = 1250; const token = ++travelToken; const startFov = camera.fov; const targetFov = targetName === "contact" ? 48 : 55;
@@ -97,6 +115,7 @@ function initScene() {
     scene.add(new THREE.AmbientLight("#798bb8", .42)); const key = new THREE.PointLight("#9b7bff", 4, 15); key.position.set(2, 3, 4); scene.add(key);
     starField = makeStars(window.innerWidth < 720 ? 520 : 1050); trailField = makeStars(window.innerWidth < 720 ? 180 : 360, true); scene.add(starField.points, trailField.points);
     destinationGroup = new THREE.Group(); scene.add(destinationGroup);
+    nebulaLayers = makeNebulaLayers(); scene.add(nebulaLayers);
     const world = makePlanetWorld(); destinationGroup.add(world.world);
     shuttle = makeShuttle(); shuttle.position.set(-1.3, .4, 1.2); destinationGroup.add(shuttle);
     const satellite = makeSatellite(); satellite.position.set(2.7, .45, 1.4); satellite.rotation.z = -.18; destinationGroup.add(satellite); destinationGroup.userData.satellite = satellite; destinationGroup.userData.stationOrbit = world.stationOrbit;
@@ -106,7 +125,7 @@ function initScene() {
 }
 
 function resize() { if (!renderer || !camera) return; camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.6)); renderer.setSize(window.innerWidth, window.innerHeight, false); }
-function render(time) { if (!renderer || document.hidden) return; const delta = Math.min((time - lastTime) / 1000 || .016, .05); lastTime = time; if (!state.reduced) { starField.points.rotation.y += delta * .006; destinationGroup.rotation.y += delta * .018; shuttle.position.y = .4 + Math.sin(time * .0012) * .05; destinationGroup.userData.satellite.position.y = .45 + Math.sin(time * .0008) * .16; destinationGroup.userData.satellite.rotation.y = time * .00035; destinationGroup.userData.stationOrbit.rotation.y = time * .0005; } renderer.render(scene, camera); animationFrame = requestAnimationFrame(render); }
+function render(time) { if (!renderer || document.hidden) return; const delta = Math.min((time - lastTime) / 1000 || .016, .05); lastTime = time; if (!state.reduced) { starField.points.rotation.y += delta * .006; destinationGroup.rotation.y += delta * .018; nebulaLayers.rotation.y += delta * .0015; nebulaLayers.position.x += (state.pointerX * .16 - nebulaLayers.position.x) * delta * .2; shuttle.position.y = .4 + Math.sin(time * .0012) * .05; destinationGroup.userData.satellite.position.y = .45 + Math.sin(time * .0008) * .16; destinationGroup.userData.satellite.rotation.y = time * .00035; destinationGroup.userData.stationOrbit.rotation.y = time * .0005; } renderer.render(scene, camera); animationFrame = requestAnimationFrame(render); }
 
 function setDestination(name, { updateHash = true, focus = true } = {}) {
   if (!destinations[name]) name = "home"; state.destination = name;
