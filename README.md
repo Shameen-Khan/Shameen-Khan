@@ -17,7 +17,7 @@
 
 ## 🌌 Portfolio site
 
-The repository also contains a self-contained single-page portfolio in `index.html`, with responsive styling in `styles.css` and the interactive Three.js scene in `script.js`.
+The repository also contains a self-contained single-page portfolio in `index.html`, with responsive styling in `styles.css` and the persistent interactive Three.js universe in `script.js`. It is a vanilla HTML/CSS/ES module app (no build system).
 
 ### Preview locally
 
@@ -27,7 +27,7 @@ No build step is required. Open `index.html` directly in a browser, or serve the
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`. The 3D hero uses Three.js `0.161.0` from jsDelivr via an import map; an existing browser WebGL fallback keeps the content usable if WebGL is unavailable.
+Then visit `http://localhost:8000`. The scene uses Three.js `0.161.0` from jsDelivr via an import map. Navigation destinations are hash URLs (`#home`, `#about`, `#skills`, `#projects`, `#writing`, `#achievements`, `#contact`) and retain the persistent WebGL canvas while the camera travels between coordinates. The Motion toggle and `prefers-reduced-motion` both disable travel animation; a static CSS universe and all HTML content remain usable if WebGL is unavailable.
 
 ---
 
