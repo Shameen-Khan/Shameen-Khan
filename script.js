@@ -2,6 +2,8 @@ import * as THREE from "three";
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const canvas = document.querySelector("#space-canvas");
+const hero = document.querySelector(".hero");
+const heroIllustration = document.querySelector(".hero-illustration");
 let sceneReady = false;
 
 function initSpace() {
@@ -55,6 +57,21 @@ function initSpace() {
 
 initSpace();
 if (!sceneReady) document.body.classList.add("webgl-fallback");
+
+if (hero && heroIllustration && !prefersReducedMotion) {
+  const parallax = { x: 0, y: 0 };
+  window.addEventListener("pointermove", (event) => {
+    const bounds = hero.getBoundingClientRect();
+    if (bounds.bottom < 0 || bounds.top > window.innerHeight) return;
+    parallax.x = (event.clientX / window.innerWidth - 0.5) * 18;
+    parallax.y = (event.clientY / window.innerHeight - 0.5) * 12;
+    heroIllustration.style.transform = `translate3d(${parallax.x}px, ${parallax.y}px, 0)`;
+  }, { passive: true });
+  window.addEventListener("scroll", () => {
+    const progress = Math.min(Math.max(window.scrollY / hero.offsetHeight, 0), 1);
+    heroIllustration.style.opacity = String(1 - progress * 0.7);
+  }, { passive: true });
+}
 
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add("visible"); }), { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
