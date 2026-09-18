@@ -15,6 +15,22 @@
 
 ---
 
+## 🌌 Portfolio site
+
+The repository also contains a self-contained single-page portfolio in `index.html`, with responsive styling in `styles.css` and the interactive Three.js scene in `script.js`.
+
+### Preview locally
+
+No build step is required. Open `index.html` directly in a browser, or serve the repository folder with any static server:
+
+```bash
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000`. The 3D hero uses Three.js `0.161.0` from jsDelivr via an import map; an existing browser WebGL fallback keeps the content usable if WebGL is unavailable.
+
+---
+
 <div align="center">
 
 ## 🧠 A LITTLE ABOUT ME
