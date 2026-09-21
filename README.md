@@ -120,7 +120,3 @@ As the repositories grow, this space will evolve with them — real projects, re
 <img src="assets/galaxy-footer.svg" width="100%" alt="Build. Learn. Experiment. Repeat. One problem. One project. One improvement at a time."/>
 
 </div>
-
-## Featured achievements
-
-The portfolio highlights Shameen Khan as a published author of *UNTITLED* with a [Notion Press author profile](https://notionpress.com/author/1557670), and as a TEDx speaker for *Why I Left My Book Untitled*, with the [TEDx talk available on YouTube](https://www.youtube.com/watch?v=t5KsyuXAtK4&t=3s).
